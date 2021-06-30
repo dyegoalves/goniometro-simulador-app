@@ -233,12 +233,16 @@ for(var i = 0, k = 0, l = gdjs.goniometro_95simulador3Code.GDtxtTituloGONIOMETRO
 }
 gdjs.goniometro_95simulador3Code.GDtxtTituloGONIOMETROObjects2.length = k;}if (gdjs.goniometro_95simulador3Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("aguardeTroca"), gdjs.goniometro_95simulador3Code.GDaguardeTrocaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("goniometroP"), gdjs.goniometro_95simulador3Code.GDgoniometroPObjects2);
 /* Reuse gdjs.goniometro_95simulador3Code.GDtxtTituloGONIOMETROObjects2 */
 {for(var i = 0, len = gdjs.goniometro_95simulador3Code.GDtxtTituloGONIOMETROObjects2.length ;i < len;++i) {
     gdjs.goniometro_95simulador3Code.GDtxtTituloGONIOMETROObjects2[i].setOpacity(gdjs.goniometro_95simulador3Code.GDtxtTituloGONIOMETROObjects2[i].getOpacity() + (100 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene)));
 }
 }{for(var i = 0, len = gdjs.goniometro_95simulador3Code.GDaguardeTrocaObjects2.length ;i < len;++i) {
     gdjs.goniometro_95simulador3Code.GDaguardeTrocaObjects2[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.goniometro_95simulador3Code.GDgoniometroPObjects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador3Code.GDgoniometroPObjects2[i].setAnimation(1);
 }
 }}
 
@@ -302,29 +306,6 @@ gdjs.copyArray(runtimeScene.getObjects("goniometroP"), gdjs.goniometro_95simulad
 }
 }{for(var i = 0, len = gdjs.goniometro_95simulador3Code.GDgoniometroPObjects2.length ;i < len;++i) {
     gdjs.goniometro_95simulador3Code.GDgoniometroPObjects2[i].setOpacity(gdjs.goniometro_95simulador3Code.GDgoniometroPObjects2[i].getOpacity() + (150 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene)));
-}
-}}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("txtTituloGONIOMETRO"), gdjs.goniometro_95simulador3Code.GDtxtTituloGONIOMETROObjects2);
-
-gdjs.goniometro_95simulador3Code.condition0IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.goniometro_95simulador3Code.GDtxtTituloGONIOMETROObjects2.length;i<l;++i) {
-    if ( gdjs.goniometro_95simulador3Code.GDtxtTituloGONIOMETROObjects2[i].timerElapsedTime("timer", 1.6) ) {
-        gdjs.goniometro_95simulador3Code.condition0IsTrue_0.val = true;
-        gdjs.goniometro_95simulador3Code.GDtxtTituloGONIOMETROObjects2[k] = gdjs.goniometro_95simulador3Code.GDtxtTituloGONIOMETROObjects2[i];
-        ++k;
-    }
-}
-gdjs.goniometro_95simulador3Code.GDtxtTituloGONIOMETROObjects2.length = k;}if (gdjs.goniometro_95simulador3Code.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("goniometroP"), gdjs.goniometro_95simulador3Code.GDgoniometroPObjects2);
-{for(var i = 0, len = gdjs.goniometro_95simulador3Code.GDgoniometroPObjects2.length ;i < len;++i) {
-    gdjs.goniometro_95simulador3Code.GDgoniometroPObjects2[i].setAnimation(1);
 }
 }}
 
