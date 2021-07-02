@@ -14,10 +14,10 @@ gdjs.evtsExt__functionTeclado__sizeButtons.eventsList0 = function(runtimeScene, 
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("btTeclado"), gdjs.evtsExt__functionTeclado__sizeButtons.GDbtTecladoObjects1);
 {for(var i = 0, len = gdjs.evtsExt__functionTeclado__sizeButtons.GDbtTecladoObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__functionTeclado__sizeButtons.GDbtTecladoObjects1[i].setWidth(gdjs.evtsExt__functionTeclado__sizeButtons.GDbtTecladoObjects1[i].getWidth() + (5000 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene)));
+    gdjs.evtsExt__functionTeclado__sizeButtons.GDbtTecladoObjects1[i].setWidth(200);
 }
 }{for(var i = 0, len = gdjs.evtsExt__functionTeclado__sizeButtons.GDbtTecladoObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__functionTeclado__sizeButtons.GDbtTecladoObjects1[i].setHeight(gdjs.evtsExt__functionTeclado__sizeButtons.GDbtTecladoObjects1[i].getHeight() + (5000 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene)));
+    gdjs.evtsExt__functionTeclado__sizeButtons.GDbtTecladoObjects1[i].setHeight(200);
 }
 }{for(var i = 0, len = gdjs.evtsExt__functionTeclado__sizeButtons.GDbtTecladoObjects1.length ;i < len;++i) {
     gdjs.evtsExt__functionTeclado__sizeButtons.GDbtTecladoObjects1[i].setZOrder(100);
