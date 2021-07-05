@@ -2248,6 +2248,26 @@ gdjs.goniometro_95simulador9Code.eventsList53(runtimeScene);} //End of subevents
 {
 
 
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = !(gdjs.evtTools.systemInfo.isMobile());
+}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("txtA1vl"), gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects2);
+gdjs.copyArray(runtimeScene.getObjects("txtB1vl"), gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2);
+{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects2[i].setPosition((gdjs.RuntimeObject.getVariableNumber(gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects2[i].getVariables().get("poxd"))),(gdjs.RuntimeObject.getVariableNumber(gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects2[i].getVariables().get("poyd"))));
+}
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].setPosition((gdjs.RuntimeObject.getVariableNumber(gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].getVariables().get("poxd"))),(gdjs.RuntimeObject.getVariableNumber(gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].getVariables().get("poyd"))));
+}
+}}
+
+}
+
+
+{
+
+
 
 }
 
