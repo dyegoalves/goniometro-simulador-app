@@ -23,6 +23,9 @@ gdjs.goniometro_95simulador3Code.GDbtFecharObjects3= [];
 gdjs.goniometro_95simulador3Code.GDaguardeTrocaObjects1= [];
 gdjs.goniometro_95simulador3Code.GDaguardeTrocaObjects2= [];
 gdjs.goniometro_95simulador3Code.GDaguardeTrocaObjects3= [];
+gdjs.goniometro_95simulador3Code.GDtxt02Objects1= [];
+gdjs.goniometro_95simulador3Code.GDtxt02Objects2= [];
+gdjs.goniometro_95simulador3Code.GDtxt02Objects3= [];
 gdjs.goniometro_95simulador3Code.GDtxt01Objects1= [];
 gdjs.goniometro_95simulador3Code.GDtxt01Objects2= [];
 gdjs.goniometro_95simulador3Code.GDtxt01Objects3= [];
@@ -186,6 +189,9 @@ for(var i = 0, len = gdjs.goniometro_95simulador3Code.GDtxt01Objects2.length ;i 
 }{for(var i = 0, len = gdjs.goniometro_95simulador3Code.GDgoniometroPObjects2.length ;i < len;++i) {
     gdjs.goniometro_95simulador3Code.GDgoniometroPObjects2[i].setOpacity(0);
 }
+}{for(var i = 0, len = gdjs.goniometro_95simulador3Code.GDgoniometroPObjects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador3Code.GDgoniometroPObjects2[i].setAnimation(1);
+}
 }}
 
 }
@@ -233,16 +239,12 @@ for(var i = 0, k = 0, l = gdjs.goniometro_95simulador3Code.GDtxtTituloGONIOMETRO
 }
 gdjs.goniometro_95simulador3Code.GDtxtTituloGONIOMETROObjects2.length = k;}if (gdjs.goniometro_95simulador3Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("aguardeTroca"), gdjs.goniometro_95simulador3Code.GDaguardeTrocaObjects2);
-gdjs.copyArray(runtimeScene.getObjects("goniometroP"), gdjs.goniometro_95simulador3Code.GDgoniometroPObjects2);
 /* Reuse gdjs.goniometro_95simulador3Code.GDtxtTituloGONIOMETROObjects2 */
 {for(var i = 0, len = gdjs.goniometro_95simulador3Code.GDtxtTituloGONIOMETROObjects2.length ;i < len;++i) {
     gdjs.goniometro_95simulador3Code.GDtxtTituloGONIOMETROObjects2[i].setOpacity(gdjs.goniometro_95simulador3Code.GDtxtTituloGONIOMETROObjects2[i].getOpacity() + (100 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene)));
 }
 }{for(var i = 0, len = gdjs.goniometro_95simulador3Code.GDaguardeTrocaObjects2.length ;i < len;++i) {
     gdjs.goniometro_95simulador3Code.GDaguardeTrocaObjects2[i].hide(false);
-}
-}{for(var i = 0, len = gdjs.goniometro_95simulador3Code.GDgoniometroPObjects2.length ;i < len;++i) {
-    gdjs.goniometro_95simulador3Code.GDgoniometroPObjects2[i].setAnimation(1);
 }
 }}
 
@@ -263,6 +265,7 @@ for(var i = 0, k = 0, l = gdjs.goniometro_95simulador3Code.GDtxtTituloGONIOMETRO
     }
 }
 gdjs.goniometro_95simulador3Code.GDtxtTituloGONIOMETROObjects2.length = k;}if (gdjs.goniometro_95simulador3Code.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("goniometroP"), gdjs.goniometro_95simulador3Code.GDgoniometroPObjects2);
 gdjs.copyArray(runtimeScene.getObjects("paineltxt"), gdjs.goniometro_95simulador3Code.GDpaineltxtObjects2);
 gdjs.copyArray(runtimeScene.getObjects("txt01"), gdjs.goniometro_95simulador3Code.GDtxt01Objects2);
 gdjs.copyArray(runtimeScene.getObjects("txtPainel"), gdjs.goniometro_95simulador3Code.GDtxtPainelObjects2);
@@ -275,34 +278,14 @@ for(var i = 0, len = gdjs.goniometro_95simulador3Code.GDtxtPainelObjects2.length
 for(var i = 0, len = gdjs.goniometro_95simulador3Code.GDtxt01Objects2.length ;i < len;++i) {
     gdjs.goniometro_95simulador3Code.GDtxt01Objects2[i].hide(false);
 }
+}{for(var i = 0, len = gdjs.goniometro_95simulador3Code.GDgoniometroPObjects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador3Code.GDgoniometroPObjects2[i].hide(false);
+}
 }{for(var i = 0, len = gdjs.goniometro_95simulador3Code.GDtxtPainelObjects2.length ;i < len;++i) {
     gdjs.goniometro_95simulador3Code.GDtxtPainelObjects2[i].setOpacity(gdjs.goniometro_95simulador3Code.GDtxtPainelObjects2[i].getOpacity() + (150 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene)));
 }
 }{for(var i = 0, len = gdjs.goniometro_95simulador3Code.GDpaineltxtObjects2.length ;i < len;++i) {
     gdjs.goniometro_95simulador3Code.GDpaineltxtObjects2[i].setOpacity(gdjs.goniometro_95simulador3Code.GDpaineltxtObjects2[i].getOpacity() + (150 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene)));
-}
-}}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("txtTituloGONIOMETRO"), gdjs.goniometro_95simulador3Code.GDtxtTituloGONIOMETROObjects2);
-
-gdjs.goniometro_95simulador3Code.condition0IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.goniometro_95simulador3Code.GDtxtTituloGONIOMETROObjects2.length;i<l;++i) {
-    if ( gdjs.goniometro_95simulador3Code.GDtxtTituloGONIOMETROObjects2[i].timerElapsedTime("timer", 1.5) ) {
-        gdjs.goniometro_95simulador3Code.condition0IsTrue_0.val = true;
-        gdjs.goniometro_95simulador3Code.GDtxtTituloGONIOMETROObjects2[k] = gdjs.goniometro_95simulador3Code.GDtxtTituloGONIOMETROObjects2[i];
-        ++k;
-    }
-}
-gdjs.goniometro_95simulador3Code.GDtxtTituloGONIOMETROObjects2.length = k;}if (gdjs.goniometro_95simulador3Code.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("goniometroP"), gdjs.goniometro_95simulador3Code.GDgoniometroPObjects2);
-{for(var i = 0, len = gdjs.goniometro_95simulador3Code.GDgoniometroPObjects2.length ;i < len;++i) {
-    gdjs.goniometro_95simulador3Code.GDgoniometroPObjects2[i].hide(false);
 }
 }{for(var i = 0, len = gdjs.goniometro_95simulador3Code.GDgoniometroPObjects2.length ;i < len;++i) {
     gdjs.goniometro_95simulador3Code.GDgoniometroPObjects2[i].setOpacity(gdjs.goniometro_95simulador3Code.GDgoniometroPObjects2[i].getOpacity() + (150 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene)));
@@ -319,7 +302,7 @@ gdjs.copyArray(runtimeScene.getObjects("goniometroP"), gdjs.goniometro_95simulad
 gdjs.goniometro_95simulador3Code.condition0IsTrue_0.val = false;
 {
 for(var i = 0, k = 0, l = gdjs.goniometro_95simulador3Code.GDgoniometroPObjects2.length;i<l;++i) {
-    if ( gdjs.goniometro_95simulador3Code.GDgoniometroPObjects2[i].getAnimationFrame() == 100 ) {
+    if ( gdjs.goniometro_95simulador3Code.GDgoniometroPObjects2[i].getAnimationFrame() == 70 ) {
         gdjs.goniometro_95simulador3Code.condition0IsTrue_0.val = true;
         gdjs.goniometro_95simulador3Code.GDgoniometroPObjects2[k] = gdjs.goniometro_95simulador3Code.GDgoniometroPObjects2[i];
         ++k;
@@ -439,6 +422,9 @@ gdjs.goniometro_95simulador3Code.GDbtFecharObjects3.length = 0;
 gdjs.goniometro_95simulador3Code.GDaguardeTrocaObjects1.length = 0;
 gdjs.goniometro_95simulador3Code.GDaguardeTrocaObjects2.length = 0;
 gdjs.goniometro_95simulador3Code.GDaguardeTrocaObjects3.length = 0;
+gdjs.goniometro_95simulador3Code.GDtxt02Objects1.length = 0;
+gdjs.goniometro_95simulador3Code.GDtxt02Objects2.length = 0;
+gdjs.goniometro_95simulador3Code.GDtxt02Objects3.length = 0;
 gdjs.goniometro_95simulador3Code.GDtxt01Objects1.length = 0;
 gdjs.goniometro_95simulador3Code.GDtxt01Objects2.length = 0;
 gdjs.goniometro_95simulador3Code.GDtxt01Objects3.length = 0;

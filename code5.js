@@ -23,6 +23,9 @@ gdjs.goniometro_95simulador6Code.GDbtFecharObjects3= [];
 gdjs.goniometro_95simulador6Code.GDaguardeTrocaTxtObjects1= [];
 gdjs.goniometro_95simulador6Code.GDaguardeTrocaTxtObjects2= [];
 gdjs.goniometro_95simulador6Code.GDaguardeTrocaTxtObjects3= [];
+gdjs.goniometro_95simulador6Code.GDtxt02Objects1= [];
+gdjs.goniometro_95simulador6Code.GDtxt02Objects2= [];
+gdjs.goniometro_95simulador6Code.GDtxt02Objects3= [];
 gdjs.goniometro_95simulador6Code.GDtxt01Objects1= [];
 gdjs.goniometro_95simulador6Code.GDtxt01Objects2= [];
 gdjs.goniometro_95simulador6Code.GDtxt01Objects3= [];
@@ -471,7 +474,7 @@ gdjs.copyArray(runtimeScene.getObjects("txtTituloGONIOMETRO"), gdjs.goniometro_9
 gdjs.goniometro_95simulador6Code.condition0IsTrue_0.val = false;
 {
 for(var i = 0, k = 0, l = gdjs.goniometro_95simulador6Code.GDtxtTituloGONIOMETROObjects2.length;i<l;++i) {
-    if ( gdjs.goniometro_95simulador6Code.GDtxtTituloGONIOMETROObjects2[i].timerElapsedTime("timer", 5) ) {
+    if ( gdjs.goniometro_95simulador6Code.GDtxtTituloGONIOMETROObjects2[i].timerElapsedTime("timer", 4.3) ) {
         gdjs.goniometro_95simulador6Code.condition0IsTrue_0.val = true;
         gdjs.goniometro_95simulador6Code.GDtxtTituloGONIOMETROObjects2[k] = gdjs.goniometro_95simulador6Code.GDtxtTituloGONIOMETROObjects2[i];
         ++k;
@@ -582,6 +585,9 @@ gdjs.goniometro_95simulador6Code.GDbtFecharObjects3.length = 0;
 gdjs.goniometro_95simulador6Code.GDaguardeTrocaTxtObjects1.length = 0;
 gdjs.goniometro_95simulador6Code.GDaguardeTrocaTxtObjects2.length = 0;
 gdjs.goniometro_95simulador6Code.GDaguardeTrocaTxtObjects3.length = 0;
+gdjs.goniometro_95simulador6Code.GDtxt02Objects1.length = 0;
+gdjs.goniometro_95simulador6Code.GDtxt02Objects2.length = 0;
+gdjs.goniometro_95simulador6Code.GDtxt02Objects3.length = 0;
 gdjs.goniometro_95simulador6Code.GDtxt01Objects1.length = 0;
 gdjs.goniometro_95simulador6Code.GDtxt01Objects2.length = 0;
 gdjs.goniometro_95simulador6Code.GDtxt01Objects3.length = 0;

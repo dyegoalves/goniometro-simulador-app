@@ -31,6 +31,10 @@ gdjs.goniometro_95simulador9Code.GDaguardeTrocaTxtObjects1= [];
 gdjs.goniometro_95simulador9Code.GDaguardeTrocaTxtObjects2= [];
 gdjs.goniometro_95simulador9Code.GDaguardeTrocaTxtObjects3= [];
 gdjs.goniometro_95simulador9Code.GDaguardeTrocaTxtObjects4= [];
+gdjs.goniometro_95simulador9Code.GDtxt02Objects1= [];
+gdjs.goniometro_95simulador9Code.GDtxt02Objects2= [];
+gdjs.goniometro_95simulador9Code.GDtxt02Objects3= [];
+gdjs.goniometro_95simulador9Code.GDtxt02Objects4= [];
 gdjs.goniometro_95simulador9Code.GDtxt01Objects1= [];
 gdjs.goniometro_95simulador9Code.GDtxt01Objects2= [];
 gdjs.goniometro_95simulador9Code.GDtxt01Objects3= [];
@@ -39,10 +43,6 @@ gdjs.goniometro_95simulador9Code.GDpainel01g1Objects1= [];
 gdjs.goniometro_95simulador9Code.GDpainel01g1Objects2= [];
 gdjs.goniometro_95simulador9Code.GDpainel01g1Objects3= [];
 gdjs.goniometro_95simulador9Code.GDpainel01g1Objects4= [];
-gdjs.goniometro_95simulador9Code.GDtxtPainel01g1Objects1= [];
-gdjs.goniometro_95simulador9Code.GDtxtPainel01g1Objects2= [];
-gdjs.goniometro_95simulador9Code.GDtxtPainel01g1Objects3= [];
-gdjs.goniometro_95simulador9Code.GDtxtPainel01g1Objects4= [];
 gdjs.goniometro_95simulador9Code.GDpeca01Objects1= [];
 gdjs.goniometro_95simulador9Code.GDpeca01Objects2= [];
 gdjs.goniometro_95simulador9Code.GDpeca01Objects3= [];
@@ -135,22 +135,14 @@ gdjs.goniometro_95simulador9Code.GDbtConfObjects1= [];
 gdjs.goniometro_95simulador9Code.GDbtConfObjects2= [];
 gdjs.goniometro_95simulador9Code.GDbtConfObjects3= [];
 gdjs.goniometro_95simulador9Code.GDbtConfObjects4= [];
-gdjs.goniometro_95simulador9Code.GDa2Objects1= [];
-gdjs.goniometro_95simulador9Code.GDa2Objects2= [];
-gdjs.goniometro_95simulador9Code.GDa2Objects3= [];
-gdjs.goniometro_95simulador9Code.GDa2Objects4= [];
-gdjs.goniometro_95simulador9Code.GDa1Objects1= [];
-gdjs.goniometro_95simulador9Code.GDa1Objects2= [];
-gdjs.goniometro_95simulador9Code.GDa1Objects3= [];
-gdjs.goniometro_95simulador9Code.GDa1Objects4= [];
-gdjs.goniometro_95simulador9Code.GDtxtTestDeskObjects1= [];
-gdjs.goniometro_95simulador9Code.GDtxtTestDeskObjects2= [];
-gdjs.goniometro_95simulador9Code.GDtxtTestDeskObjects3= [];
-gdjs.goniometro_95simulador9Code.GDtxtTestDeskObjects4= [];
-gdjs.goniometro_95simulador9Code.GDtxtTestMobileObjects1= [];
-gdjs.goniometro_95simulador9Code.GDtxtTestMobileObjects2= [];
-gdjs.goniometro_95simulador9Code.GDtxtTestMobileObjects3= [];
-gdjs.goniometro_95simulador9Code.GDtxtTestMobileObjects4= [];
+gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects1= [];
+gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects2= [];
+gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3= [];
+gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects4= [];
+gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects1= [];
+gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2= [];
+gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects3= [];
+gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects4= [];
 
 gdjs.goniometro_95simulador9Code.conditionTrue_0 = {val:false};
 gdjs.goniometro_95simulador9Code.condition0IsTrue_0 = {val:false};
@@ -196,7 +188,6 @@ gdjs.copyArray(runtimeScene.getObjects("txtA1"), gdjs.goniometro_95simulador9Cod
 gdjs.copyArray(runtimeScene.getObjects("txtA1vl"), gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects2);
 gdjs.copyArray(runtimeScene.getObjects("txtB1"), gdjs.goniometro_95simulador9Code.GDtxtB1Objects2);
 gdjs.copyArray(runtimeScene.getObjects("txtLeituraCompleta"), gdjs.goniometro_95simulador9Code.GDtxtLeituraCompletaObjects2);
-gdjs.copyArray(runtimeScene.getObjects("txtPainel01g1"), gdjs.goniometro_95simulador9Code.GDtxtPainel01g1Objects2);
 gdjs.copyArray(runtimeScene.getObjects("txtTituloGONIOMETRO"), gdjs.goniometro_95simulador9Code.GDtxtTituloGONIOMETROObjects2);
 {for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtecladoObjects2.length ;i < len;++i) {
     gdjs.goniometro_95simulador9Code.GDtecladoObjects2[i].hide();
@@ -251,9 +242,6 @@ for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDbtCEObjects2.length ;i <
 }
 }{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDpainel01g1Objects2.length ;i < len;++i) {
     gdjs.goniometro_95simulador9Code.GDpainel01g1Objects2[i].setOpacity(0);
-}
-}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtPainel01g1Objects2.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDtxtPainel01g1Objects2[i].setOpacity(0);
 }
 }{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxt01_95PObjects2.length ;i < len;++i) {
     gdjs.goniometro_95simulador9Code.GDtxt01_95PObjects2[i].setOpacity(0);
@@ -376,11 +364,7 @@ gdjs.copyArray(runtimeScene.getObjects("txtA1"), gdjs.goniometro_95simulador9Cod
 gdjs.copyArray(runtimeScene.getObjects("txtA1vl"), gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects2);
 gdjs.copyArray(runtimeScene.getObjects("txtB1"), gdjs.goniometro_95simulador9Code.GDtxtB1Objects2);
 gdjs.copyArray(runtimeScene.getObjects("txtLeituraCompleta"), gdjs.goniometro_95simulador9Code.GDtxtLeituraCompletaObjects2);
-gdjs.copyArray(runtimeScene.getObjects("txtPainel01g1"), gdjs.goniometro_95simulador9Code.GDtxtPainel01g1Objects2);
-{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtPainel01g1Objects2.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDtxtPainel01g1Objects2[i].setOpacity(gdjs.goniometro_95simulador9Code.GDtxtPainel01g1Objects2[i].getOpacity() + (150 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene)));
-}
-}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDpainel01g1Objects2.length ;i < len;++i) {
+{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDpainel01g1Objects2.length ;i < len;++i) {
     gdjs.goniometro_95simulador9Code.GDpainel01g1Objects2[i].setWidth(700);
 }
 }{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDpainel01g1Objects2.length ;i < len;++i) {
@@ -535,7 +519,7 @@ gdjs.goniometro_95simulador9Code.condition2IsTrue_0.val = gdjs.evtTools.input.is
 }}
 }
 if (gdjs.goniometro_95simulador9Code.condition2IsTrue_0.val) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "goniometro_simulador9", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "goniometro_simulador10", false);
 }}
 
 }
@@ -559,7 +543,7 @@ gdjs.goniometro_95simulador9Code.condition2IsTrue_0.val = gdjs.evtTools.input.is
 }}
 }
 if (gdjs.goniometro_95simulador9Code.condition2IsTrue_0.val) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "goniometro_simulador7", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "goniometro_simulador8", false);
 }}
 
 }
@@ -677,7 +661,7 @@ gdjs.goniometro_95simulador9Code.eventsList1(runtimeScene);} //End of subevents
 
 gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
 {
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.systemInfo.isMobile();
 }if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("bt00"), gdjs.goniometro_95simulador9Code.GDbt00Objects2);
 gdjs.copyArray(runtimeScene.getObjects("bt01"), gdjs.goniometro_95simulador9Code.GDbt01Objects2);
@@ -692,10 +676,6 @@ gdjs.copyArray(runtimeScene.getObjects("bt09"), gdjs.goniometro_95simulador9Code
 gdjs.copyArray(runtimeScene.getObjects("btCE"), gdjs.goniometro_95simulador9Code.GDbtCEObjects2);
 gdjs.copyArray(runtimeScene.getObjects("btfc"), gdjs.goniometro_95simulador9Code.GDbtfcObjects2);
 gdjs.copyArray(runtimeScene.getObjects("teclado"), gdjs.goniometro_95simulador9Code.GDtecladoObjects2);
-/* Reuse gdjs.goniometro_95simulador9Code.GDtxtA1Objects2 */
-gdjs.copyArray(runtimeScene.getObjects("txtA1vl"), gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects2);
-gdjs.copyArray(runtimeScene.getObjects("txtB1"), gdjs.goniometro_95simulador9Code.GDtxtB1Objects2);
-gdjs.copyArray(runtimeScene.getObjects("txtB1vl"), gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2);
 {for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtecladoObjects2.length ;i < len;++i) {
     gdjs.goniometro_95simulador9Code.GDtecladoObjects2[i].hide(false);
 }
@@ -735,7 +715,25 @@ for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDbtfcObjects2.length ;i <
 for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDbtCEObjects2.length ;i < len;++i) {
     gdjs.goniometro_95simulador9Code.GDbtCEObjects2[i].hide(false);
 }
-}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtA1Objects2.length ;i < len;++i) {
+}}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.eventsList4 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
+/* Reuse gdjs.goniometro_95simulador9Code.GDtxtA1Objects2 */
+gdjs.copyArray(runtimeScene.getObjects("txtA1vl"), gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects2);
+gdjs.copyArray(runtimeScene.getObjects("txtB1"), gdjs.goniometro_95simulador9Code.GDtxtB1Objects2);
+gdjs.copyArray(runtimeScene.getObjects("txtB1vl"), gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2);
+{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtA1Objects2.length ;i < len;++i) {
     gdjs.goniometro_95simulador9Code.GDtxtA1Objects2[i].returnVariable(gdjs.goniometro_95simulador9Code.GDtxtA1Objects2[i].getVariables().get("ctxta1")).setNumber(0);
 }
 }{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtA1Objects2.length ;i < len;++i) {
@@ -751,19 +749,23 @@ for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDbtCEObjects2.length ;i <
     gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].setColor("74;74;74");
 }
 }{runtimeScene.getVariables().getFromIndex(3).setNumber(0);
-}}
+}{runtimeScene.getVariables().getFromIndex(4).setNumber(1);
+}
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList3(runtimeScene);} //End of subevents
+}
 
 }
 
 
-};gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDtxtB1Objects2Objects = Hashtable.newFrom({"txtB1": gdjs.goniometro_95simulador9Code.GDtxtB1Objects2});gdjs.goniometro_95simulador9Code.eventsList4 = function(runtimeScene) {
+};gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDtxtB1Objects2Objects = Hashtable.newFrom({"txtB1": gdjs.goniometro_95simulador9Code.GDtxtB1Objects2});gdjs.goniometro_95simulador9Code.eventsList5 = function(runtimeScene) {
 
 {
 
 
 gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
 {
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.systemInfo.isMobile();
 }if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("bt00"), gdjs.goniometro_95simulador9Code.GDbt00Objects2);
 gdjs.copyArray(runtimeScene.getObjects("bt01"), gdjs.goniometro_95simulador9Code.GDbt01Objects2);
@@ -778,10 +780,6 @@ gdjs.copyArray(runtimeScene.getObjects("bt09"), gdjs.goniometro_95simulador9Code
 gdjs.copyArray(runtimeScene.getObjects("btCE"), gdjs.goniometro_95simulador9Code.GDbtCEObjects2);
 gdjs.copyArray(runtimeScene.getObjects("btfc"), gdjs.goniometro_95simulador9Code.GDbtfcObjects2);
 gdjs.copyArray(runtimeScene.getObjects("teclado"), gdjs.goniometro_95simulador9Code.GDtecladoObjects2);
-gdjs.copyArray(runtimeScene.getObjects("txtA1"), gdjs.goniometro_95simulador9Code.GDtxtA1Objects2);
-gdjs.copyArray(runtimeScene.getObjects("txtA1vl"), gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects2);
-/* Reuse gdjs.goniometro_95simulador9Code.GDtxtB1Objects2 */
-gdjs.copyArray(runtimeScene.getObjects("txtB1vl"), gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2);
 {for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtecladoObjects2.length ;i < len;++i) {
     gdjs.goniometro_95simulador9Code.GDtecladoObjects2[i].hide(false);
 }
@@ -821,7 +819,25 @@ for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDbtfcObjects2.length ;i <
 for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDbtCEObjects2.length ;i < len;++i) {
     gdjs.goniometro_95simulador9Code.GDbtCEObjects2[i].hide(false);
 }
-}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtB1Objects2.length ;i < len;++i) {
+}}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.eventsList6 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("txtA1"), gdjs.goniometro_95simulador9Code.GDtxtA1Objects2);
+gdjs.copyArray(runtimeScene.getObjects("txtA1vl"), gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects2);
+/* Reuse gdjs.goniometro_95simulador9Code.GDtxtB1Objects2 */
+gdjs.copyArray(runtimeScene.getObjects("txtB1vl"), gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2);
+{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtB1Objects2.length ;i < len;++i) {
     gdjs.goniometro_95simulador9Code.GDtxtB1Objects2[i].returnVariable(gdjs.goniometro_95simulador9Code.GDtxtB1Objects2[i].getVariables().get("ctxtb1")).setNumber(0);
 }
 }{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtB1Objects2.length ;i < len;++i) {
@@ -837,128 +853,7 @@ for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDbtCEObjects2.length ;i <
     gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects2[i].setColor("74;74;74");
 }
 }{runtimeScene.getVariables().getFromIndex(3).setNumber(1);
-}}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtConfObjects1Objects = Hashtable.newFrom({"btConf": gdjs.goniometro_95simulador9Code.GDbtConfObjects1});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtConfObjects1Objects = Hashtable.newFrom({"btConf": gdjs.goniometro_95simulador9Code.GDbtConfObjects1});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtConfObjects1Objects = Hashtable.newFrom({"btConf": gdjs.goniometro_95simulador9Code.GDbtConfObjects1});gdjs.goniometro_95simulador9Code.eventsList5 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-/* Reuse gdjs.goniometro_95simulador9Code.GDbtConfObjects1 */
-{gdjs.evtsExt__functionTeclado__sizeButtonsConf.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtConfObjects1Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDbtConfObjects1.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDbtConfObjects1[i].returnVariable(gdjs.goniometro_95simulador9Code.GDbtConfObjects1[i].getVariables().get("cbtconf")).setNumber(0);
-}
-}}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.eventsList6 = function(runtimeScene) {
-
-{
-
-
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("txtA1"), gdjs.goniometro_95simulador9Code.GDtxtA1Objects2);
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDtxtA1Objects2Objects, runtimeScene, false, false);
-}if ( gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val ) {
-{
-for(var i = 0, k = 0, l = gdjs.goniometro_95simulador9Code.GDtxtA1Objects2.length;i<l;++i) {
-    if ( gdjs.goniometro_95simulador9Code.GDtxtA1Objects2[i].getVariableNumber(gdjs.goniometro_95simulador9Code.GDtxtA1Objects2[i].getVariables().get("ctxta1")) == 0 ) {
-        gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = true;
-        gdjs.goniometro_95simulador9Code.GDtxtA1Objects2[k] = gdjs.goniometro_95simulador9Code.GDtxtA1Objects2[i];
-        ++k;
-    }
-}
-gdjs.goniometro_95simulador9Code.GDtxtA1Objects2.length = k;}}
-if (gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val) {
-
-{ //Subevents
-gdjs.goniometro_95simulador9Code.eventsList3(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("txtB1"), gdjs.goniometro_95simulador9Code.GDtxtB1Objects2);
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDtxtB1Objects2Objects, runtimeScene, false, false);
-}if ( gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val ) {
-{
-for(var i = 0, k = 0, l = gdjs.goniometro_95simulador9Code.GDtxtB1Objects2.length;i<l;++i) {
-    if ( gdjs.goniometro_95simulador9Code.GDtxtB1Objects2[i].getVariableNumber(gdjs.goniometro_95simulador9Code.GDtxtB1Objects2[i].getVariables().get("ctxtb1")) == 0 ) {
-        gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = true;
-        gdjs.goniometro_95simulador9Code.GDtxtB1Objects2[k] = gdjs.goniometro_95simulador9Code.GDtxtB1Objects2[i];
-        ++k;
-    }
-}
-gdjs.goniometro_95simulador9Code.GDtxtB1Objects2.length = k;}}
-if (gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val) {
-
-{ //Subevents
-gdjs.goniometro_95simulador9Code.eventsList4(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("btConf"), gdjs.goniometro_95simulador9Code.GDbtConfObjects1);
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtConfObjects1Objects, runtimeScene, false, false);
-}if ( gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val ) {
-{
-for(var i = 0, k = 0, l = gdjs.goniometro_95simulador9Code.GDbtConfObjects1.length;i<l;++i) {
-    if ( gdjs.goniometro_95simulador9Code.GDbtConfObjects1[i].getVariableNumber(gdjs.goniometro_95simulador9Code.GDbtConfObjects1[i].getVariables().get("cbtconf")) == 0 ) {
-        gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = true;
-        gdjs.goniometro_95simulador9Code.GDbtConfObjects1[k] = gdjs.goniometro_95simulador9Code.GDbtConfObjects1[i];
-        ++k;
-    }
-}
-gdjs.goniometro_95simulador9Code.GDbtConfObjects1.length = k;}}
-if (gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val) {
-/* Reuse gdjs.goniometro_95simulador9Code.GDbtConfObjects1 */
-{gdjs.evtsExt__functionTeclado__defautButtonsConf.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtConfObjects1Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{runtimeScene.getVariables().getFromIndex(4).setNumber(1);
 }
 { //Subevents
 gdjs.goniometro_95simulador9Code.eventsList5(runtimeScene);} //End of subevents
@@ -967,7 +862,72 @@ gdjs.goniometro_95simulador9Code.eventsList5(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtfcObjects2Objects = Hashtable.newFrom({"btfc": gdjs.goniometro_95simulador9Code.GDbtfcObjects2});gdjs.goniometro_95simulador9Code.eventsList7 = function(runtimeScene) {
+};gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtConfObjects2Objects = Hashtable.newFrom({"btConf": gdjs.goniometro_95simulador9Code.GDbtConfObjects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtConfObjects2Objects = Hashtable.newFrom({"btConf": gdjs.goniometro_95simulador9Code.GDbtConfObjects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtConfObjects2Objects = Hashtable.newFrom({"btConf": gdjs.goniometro_95simulador9Code.GDbtConfObjects2});gdjs.goniometro_95simulador9Code.eventsList7 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
+/* Reuse gdjs.goniometro_95simulador9Code.GDbtConfObjects2 */
+{gdjs.evtsExt__functionTeclado__sizeButtonsConf.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtConfObjects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDbtConfObjects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDbtConfObjects2[i].returnVariable(gdjs.goniometro_95simulador9Code.GDbtConfObjects2[i].getVariables().get("cbtconf")).setNumber(0);
+}
+}}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.eventsList8 = function(runtimeScene) {
+
+{
+
+
+{
+gdjs.copyArray(runtimeScene.getObjects("txtA1vl"), gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects2);
+gdjs.copyArray(runtimeScene.getObjects("txtEntryA1"), gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects2);
+gdjs.copyArray(runtimeScene.getObjects("txtEntryB1"), gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2);
+{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects2[i].setString((( gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects2.length === 0 ) ? "" :gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects2[0].getString()));
+}
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects2[i].activate(true);
+}
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2[i].activate(false);
+}
+}}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.eventsList9 = function(runtimeScene) {
+
+{
+
+
+{
+gdjs.copyArray(runtimeScene.getObjects("txtB1vl"), gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2);
+gdjs.copyArray(runtimeScene.getObjects("txtEntryA1"), gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects2);
+gdjs.copyArray(runtimeScene.getObjects("txtEntryB1"), gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2);
+{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2[i].activate(true);
+}
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects2[i].activate(false);
+}
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].setString((( gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2.length === 0 ) ? "" :gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2[0].getString()));
+}
+}}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtfcObjects2Objects = Hashtable.newFrom({"btfc": gdjs.goniometro_95simulador9Code.GDbtfcObjects2});gdjs.goniometro_95simulador9Code.eventsList10 = function(runtimeScene) {
 
 {
 
@@ -1044,12 +1004,14 @@ for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDbtCEObjects2.length ;i <
 }{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2.length ;i < len;++i) {
     gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].setColor("74;74;74");
 }
+}{runtimeScene.getVariables().getFromIndex(4).setNumber(0);
+}{runtimeScene.getVariables().getFromIndex(4).setNumber(0);
 }}
 
 }
 
 
-};gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtCEObjects2Objects = Hashtable.newFrom({"btCE": gdjs.goniometro_95simulador9Code.GDbtCEObjects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtCEObjects2Objects = Hashtable.newFrom({"btCE": gdjs.goniometro_95simulador9Code.GDbtCEObjects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt00Objects2Objects = Hashtable.newFrom({"bt00": gdjs.goniometro_95simulador9Code.GDbt00Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt01Objects2Objects = Hashtable.newFrom({"bt01": gdjs.goniometro_95simulador9Code.GDbt01Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt02Objects2Objects = Hashtable.newFrom({"bt02": gdjs.goniometro_95simulador9Code.GDbt02Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt03Objects2Objects = Hashtable.newFrom({"bt03": gdjs.goniometro_95simulador9Code.GDbt03Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt04Objects2Objects = Hashtable.newFrom({"bt04": gdjs.goniometro_95simulador9Code.GDbt04Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt05Objects2Objects = Hashtable.newFrom({"bt05": gdjs.goniometro_95simulador9Code.GDbt05Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt06Objects2Objects = Hashtable.newFrom({"bt06": gdjs.goniometro_95simulador9Code.GDbt06Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt07Objects2Objects = Hashtable.newFrom({"bt07": gdjs.goniometro_95simulador9Code.GDbt07Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt08Objects2Objects = Hashtable.newFrom({"bt08": gdjs.goniometro_95simulador9Code.GDbt08Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects2Objects = Hashtable.newFrom({"bt09": gdjs.goniometro_95simulador9Code.GDbt09Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtCEObjects2Objects = Hashtable.newFrom({"btCE": gdjs.goniometro_95simulador9Code.GDbtCEObjects2});gdjs.goniometro_95simulador9Code.eventsList8 = function(runtimeScene) {
+};gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtCEObjects2Objects = Hashtable.newFrom({"btCE": gdjs.goniometro_95simulador9Code.GDbtCEObjects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtCEObjects2Objects = Hashtable.newFrom({"btCE": gdjs.goniometro_95simulador9Code.GDbtCEObjects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt00Objects2Objects = Hashtable.newFrom({"bt00": gdjs.goniometro_95simulador9Code.GDbt00Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt01Objects2Objects = Hashtable.newFrom({"bt01": gdjs.goniometro_95simulador9Code.GDbt01Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt02Objects2Objects = Hashtable.newFrom({"bt02": gdjs.goniometro_95simulador9Code.GDbt02Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt03Objects2Objects = Hashtable.newFrom({"bt03": gdjs.goniometro_95simulador9Code.GDbt03Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt04Objects2Objects = Hashtable.newFrom({"bt04": gdjs.goniometro_95simulador9Code.GDbt04Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt05Objects2Objects = Hashtable.newFrom({"bt05": gdjs.goniometro_95simulador9Code.GDbt05Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt06Objects2Objects = Hashtable.newFrom({"bt06": gdjs.goniometro_95simulador9Code.GDbt06Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt07Objects2Objects = Hashtable.newFrom({"bt07": gdjs.goniometro_95simulador9Code.GDbt07Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt08Objects2Objects = Hashtable.newFrom({"bt08": gdjs.goniometro_95simulador9Code.GDbt08Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects2Objects = Hashtable.newFrom({"bt09": gdjs.goniometro_95simulador9Code.GDbt09Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtCEObjects2Objects = Hashtable.newFrom({"btCE": gdjs.goniometro_95simulador9Code.GDbtCEObjects2});gdjs.goniometro_95simulador9Code.eventsList11 = function(runtimeScene) {
 
 {
 
@@ -1057,19 +1019,23 @@ for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDbtCEObjects2.length ;i <
 gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
 {
 {gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
-gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9980564);
+gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11795196);
 }
 }if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("txtA1vl"), gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3);
+gdjs.copyArray(runtimeScene.getObjects("txtEntryA1"), gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3);
 {for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3.length ;i < len;++i) {
     gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].setString("");
+}
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3[i].setString("");
 }
 }}
 
 }
 
 
-};gdjs.goniometro_95simulador9Code.eventsList9 = function(runtimeScene) {
+};gdjs.goniometro_95simulador9Code.eventsList12 = function(runtimeScene) {
 
 {
 
@@ -1077,19 +1043,1318 @@ gdjs.copyArray(runtimeScene.getObjects("txtA1vl"), gdjs.goniometro_95simulador9C
 gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
 {
 {gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
-gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8914628);
+gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8352852);
 }
 }if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("txtB1vl"), gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2);
+gdjs.copyArray(runtimeScene.getObjects("txtEntryB1"), gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2);
 {for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2.length ;i < len;++i) {
     gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].setString("");
+}
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2[i].setString("");
 }
 }}
 
 }
 
 
-};gdjs.goniometro_95simulador9Code.eventsList10 = function(runtimeScene) {
+};gdjs.goniometro_95simulador9Code.eventsList13 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 0;
+}if ( gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val ) {
+{
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(4)) == 1;
+}}
+if (gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList11(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 1;
+}if ( gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val ) {
+{
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(4)) == 1;
+}}
+if (gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList12(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.eventsList14 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
+/* Reuse gdjs.goniometro_95simulador9Code.GDbtCEObjects2 */
+{gdjs.evtsExt__functionTeclado__sizeButtons.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtCEObjects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDbtCEObjects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDbtCEObjects2[i].returnVariable(gdjs.goniometro_95simulador9Code.GDbtCEObjects2[i].getVariables().get("cbtCE")).setNumber(0);
+}
+}
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList13(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt00Objects2Objects = Hashtable.newFrom({"bt00": gdjs.goniometro_95simulador9Code.GDbt00Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtCEObjects2Objects = Hashtable.newFrom({"btCE": gdjs.goniometro_95simulador9Code.GDbtCEObjects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt00Objects2Objects = Hashtable.newFrom({"bt00": gdjs.goniometro_95simulador9Code.GDbt00Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt01Objects2Objects = Hashtable.newFrom({"bt01": gdjs.goniometro_95simulador9Code.GDbt01Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt02Objects2Objects = Hashtable.newFrom({"bt02": gdjs.goniometro_95simulador9Code.GDbt02Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt03Objects2Objects = Hashtable.newFrom({"bt03": gdjs.goniometro_95simulador9Code.GDbt03Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt04Objects2Objects = Hashtable.newFrom({"bt04": gdjs.goniometro_95simulador9Code.GDbt04Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt05Objects2Objects = Hashtable.newFrom({"bt05": gdjs.goniometro_95simulador9Code.GDbt05Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt06Objects2Objects = Hashtable.newFrom({"bt06": gdjs.goniometro_95simulador9Code.GDbt06Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt07Objects2Objects = Hashtable.newFrom({"bt07": gdjs.goniometro_95simulador9Code.GDbt07Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt08Objects2Objects = Hashtable.newFrom({"bt08": gdjs.goniometro_95simulador9Code.GDbt08Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects2Objects = Hashtable.newFrom({"bt09": gdjs.goniometro_95simulador9Code.GDbt09Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt00Objects2Objects = Hashtable.newFrom({"bt00": gdjs.goniometro_95simulador9Code.GDbt00Objects2});gdjs.goniometro_95simulador9Code.eventsList15 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+{
+{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
+gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11763012);
+}
+}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("txtA1vl"), gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3);
+gdjs.copyArray(runtimeScene.getObjects("txtEntryA1"), gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3);
+{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3[i].setString(gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3[i].getString() + ("0"));
+}
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].setString(gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].getString() + ("0"));
+}
+}}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.eventsList16 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+{
+{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
+gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12568276);
+}
+}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("txtB1vl"), gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2);
+gdjs.copyArray(runtimeScene.getObjects("txtEntryB1"), gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2);
+{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2[i].setString(gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2[i].getString() + ("0"));
+}
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].setString(gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].getString() + ("0"));
+}
+}}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.eventsList17 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 0;
+}if ( gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val ) {
+{
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(4)) == 1;
+}}
+if (gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList15(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 1;
+}if ( gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val ) {
+{
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(4)) == 1;
+}}
+if (gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList16(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.eventsList18 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
+/* Reuse gdjs.goniometro_95simulador9Code.GDbt00Objects2 */
+{gdjs.evtsExt__functionTeclado__sizeButtons.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt00Objects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDbt00Objects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDbt00Objects2[i].returnVariable(gdjs.goniometro_95simulador9Code.GDbt00Objects2[i].getVariables().get("cbt00")).setNumber(0);
+}
+}
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList17(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt01Objects2Objects = Hashtable.newFrom({"bt01": gdjs.goniometro_95simulador9Code.GDbt01Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtCEObjects2Objects = Hashtable.newFrom({"btCE": gdjs.goniometro_95simulador9Code.GDbtCEObjects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt00Objects2Objects = Hashtable.newFrom({"bt00": gdjs.goniometro_95simulador9Code.GDbt00Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt01Objects2Objects = Hashtable.newFrom({"bt01": gdjs.goniometro_95simulador9Code.GDbt01Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt02Objects2Objects = Hashtable.newFrom({"bt02": gdjs.goniometro_95simulador9Code.GDbt02Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt03Objects2Objects = Hashtable.newFrom({"bt03": gdjs.goniometro_95simulador9Code.GDbt03Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt04Objects2Objects = Hashtable.newFrom({"bt04": gdjs.goniometro_95simulador9Code.GDbt04Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt05Objects2Objects = Hashtable.newFrom({"bt05": gdjs.goniometro_95simulador9Code.GDbt05Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt06Objects2Objects = Hashtable.newFrom({"bt06": gdjs.goniometro_95simulador9Code.GDbt06Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt07Objects2Objects = Hashtable.newFrom({"bt07": gdjs.goniometro_95simulador9Code.GDbt07Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt08Objects2Objects = Hashtable.newFrom({"bt08": gdjs.goniometro_95simulador9Code.GDbt08Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects2Objects = Hashtable.newFrom({"bt09": gdjs.goniometro_95simulador9Code.GDbt09Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt01Objects2Objects = Hashtable.newFrom({"bt01": gdjs.goniometro_95simulador9Code.GDbt01Objects2});gdjs.goniometro_95simulador9Code.eventsList19 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+{
+{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
+gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11778900);
+}
+}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("txtA1vl"), gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3);
+gdjs.copyArray(runtimeScene.getObjects("txtEntryA1"), gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3);
+{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].setString(gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].getString() + ("1"));
+}
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3[i].setString(gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3[i].getString() + ("1"));
+}
+}}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.eventsList20 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+{
+{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
+gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11784132);
+}
+}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("txtB1vl"), gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2);
+gdjs.copyArray(runtimeScene.getObjects("txtEntryB1"), gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2);
+{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].setString(gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].getString() + ("1"));
+}
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2[i].setString(gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2[i].getString() + ("1"));
+}
+}}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.eventsList21 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 0;
+}if ( gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val ) {
+{
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(4)) == 1;
+}}
+if (gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList19(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 1;
+}if ( gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val ) {
+{
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(4)) == 1;
+}}
+if (gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList20(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.eventsList22 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
+/* Reuse gdjs.goniometro_95simulador9Code.GDbt01Objects2 */
+{gdjs.evtsExt__functionTeclado__sizeButtons.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt01Objects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDbt01Objects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDbt01Objects2[i].returnVariable(gdjs.goniometro_95simulador9Code.GDbt01Objects2[i].getVariables().get("cbt01")).setNumber(0);
+}
+}
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList21(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt02Objects2Objects = Hashtable.newFrom({"bt02": gdjs.goniometro_95simulador9Code.GDbt02Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtCEObjects2Objects = Hashtable.newFrom({"btCE": gdjs.goniometro_95simulador9Code.GDbtCEObjects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt00Objects2Objects = Hashtable.newFrom({"bt00": gdjs.goniometro_95simulador9Code.GDbt00Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt01Objects2Objects = Hashtable.newFrom({"bt01": gdjs.goniometro_95simulador9Code.GDbt01Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt02Objects2Objects = Hashtable.newFrom({"bt02": gdjs.goniometro_95simulador9Code.GDbt02Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt03Objects2Objects = Hashtable.newFrom({"bt03": gdjs.goniometro_95simulador9Code.GDbt03Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt04Objects2Objects = Hashtable.newFrom({"bt04": gdjs.goniometro_95simulador9Code.GDbt04Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt05Objects2Objects = Hashtable.newFrom({"bt05": gdjs.goniometro_95simulador9Code.GDbt05Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt06Objects2Objects = Hashtable.newFrom({"bt06": gdjs.goniometro_95simulador9Code.GDbt06Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt07Objects2Objects = Hashtable.newFrom({"bt07": gdjs.goniometro_95simulador9Code.GDbt07Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt08Objects2Objects = Hashtable.newFrom({"bt08": gdjs.goniometro_95simulador9Code.GDbt08Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects2Objects = Hashtable.newFrom({"bt09": gdjs.goniometro_95simulador9Code.GDbt09Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt02Objects2Objects = Hashtable.newFrom({"bt02": gdjs.goniometro_95simulador9Code.GDbt02Objects2});gdjs.goniometro_95simulador9Code.eventsList23 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+{
+{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
+gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9292812);
+}
+}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("txtA1vl"), gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3);
+gdjs.copyArray(runtimeScene.getObjects("txtEntryA1"), gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3);
+{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].setString(gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].getString() + ("2"));
+}
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3[i].setString(gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3[i].getString() + ("2"));
+}
+}}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.eventsList24 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+{
+{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
+gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11735188);
+}
+}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("txtB1vl"), gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2);
+gdjs.copyArray(runtimeScene.getObjects("txtEntryB1"), gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2);
+{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].setString(gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].getString() + ("2"));
+}
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2[i].setString(gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2[i].getString() + ("2"));
+}
+}}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.eventsList25 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 0;
+}if ( gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val ) {
+{
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(4)) == 1;
+}}
+if (gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList23(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 1;
+}if ( gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val ) {
+{
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(4)) == 1;
+}}
+if (gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList24(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.eventsList26 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
+/* Reuse gdjs.goniometro_95simulador9Code.GDbt02Objects2 */
+{gdjs.evtsExt__functionTeclado__sizeButtons.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt02Objects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDbt02Objects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDbt02Objects2[i].returnVariable(gdjs.goniometro_95simulador9Code.GDbt02Objects2[i].getVariables().get("cbt02")).setNumber(0);
+}
+}
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList25(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt03Objects2Objects = Hashtable.newFrom({"bt03": gdjs.goniometro_95simulador9Code.GDbt03Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtCEObjects2Objects = Hashtable.newFrom({"btCE": gdjs.goniometro_95simulador9Code.GDbtCEObjects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt00Objects2Objects = Hashtable.newFrom({"bt00": gdjs.goniometro_95simulador9Code.GDbt00Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt01Objects2Objects = Hashtable.newFrom({"bt01": gdjs.goniometro_95simulador9Code.GDbt01Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt02Objects2Objects = Hashtable.newFrom({"bt02": gdjs.goniometro_95simulador9Code.GDbt02Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt03Objects2Objects = Hashtable.newFrom({"bt03": gdjs.goniometro_95simulador9Code.GDbt03Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt04Objects2Objects = Hashtable.newFrom({"bt04": gdjs.goniometro_95simulador9Code.GDbt04Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt05Objects2Objects = Hashtable.newFrom({"bt05": gdjs.goniometro_95simulador9Code.GDbt05Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt06Objects2Objects = Hashtable.newFrom({"bt06": gdjs.goniometro_95simulador9Code.GDbt06Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt07Objects2Objects = Hashtable.newFrom({"bt07": gdjs.goniometro_95simulador9Code.GDbt07Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt08Objects2Objects = Hashtable.newFrom({"bt08": gdjs.goniometro_95simulador9Code.GDbt08Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects2Objects = Hashtable.newFrom({"bt09": gdjs.goniometro_95simulador9Code.GDbt09Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt03Objects2Objects = Hashtable.newFrom({"bt03": gdjs.goniometro_95simulador9Code.GDbt03Objects2});gdjs.goniometro_95simulador9Code.eventsList27 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+{
+{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
+gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11767548);
+}
+}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("txtA1vl"), gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3);
+gdjs.copyArray(runtimeScene.getObjects("txtEntryA1"), gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3);
+{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].setString(gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].getString() + ("3"));
+}
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3[i].setString(gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3[i].getString() + ("3"));
+}
+}}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.eventsList28 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+{
+{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
+gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11742564);
+}
+}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("txtB1vl"), gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2);
+gdjs.copyArray(runtimeScene.getObjects("txtEntryB1"), gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2);
+{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].setString(gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].getString() + ("3"));
+}
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2[i].setString(gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2[i].getString() + ("3"));
+}
+}}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.eventsList29 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 0;
+}if ( gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val ) {
+{
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(4)) == 1;
+}}
+if (gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList27(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 1;
+}if ( gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val ) {
+{
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(4)) == 1;
+}}
+if (gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList28(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.eventsList30 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
+/* Reuse gdjs.goniometro_95simulador9Code.GDbt03Objects2 */
+{gdjs.evtsExt__functionTeclado__sizeButtons.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt03Objects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDbt03Objects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDbt03Objects2[i].returnVariable(gdjs.goniometro_95simulador9Code.GDbt03Objects2[i].getVariables().get("cbt03")).setNumber(0);
+}
+}
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList29(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt04Objects2Objects = Hashtable.newFrom({"bt04": gdjs.goniometro_95simulador9Code.GDbt04Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtCEObjects2Objects = Hashtable.newFrom({"btCE": gdjs.goniometro_95simulador9Code.GDbtCEObjects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt00Objects2Objects = Hashtable.newFrom({"bt00": gdjs.goniometro_95simulador9Code.GDbt00Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt01Objects2Objects = Hashtable.newFrom({"bt01": gdjs.goniometro_95simulador9Code.GDbt01Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt02Objects2Objects = Hashtable.newFrom({"bt02": gdjs.goniometro_95simulador9Code.GDbt02Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt03Objects2Objects = Hashtable.newFrom({"bt03": gdjs.goniometro_95simulador9Code.GDbt03Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt04Objects2Objects = Hashtable.newFrom({"bt04": gdjs.goniometro_95simulador9Code.GDbt04Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt05Objects2Objects = Hashtable.newFrom({"bt05": gdjs.goniometro_95simulador9Code.GDbt05Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt06Objects2Objects = Hashtable.newFrom({"bt06": gdjs.goniometro_95simulador9Code.GDbt06Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt07Objects2Objects = Hashtable.newFrom({"bt07": gdjs.goniometro_95simulador9Code.GDbt07Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt08Objects2Objects = Hashtable.newFrom({"bt08": gdjs.goniometro_95simulador9Code.GDbt08Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects2Objects = Hashtable.newFrom({"bt09": gdjs.goniometro_95simulador9Code.GDbt09Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt04Objects2Objects = Hashtable.newFrom({"bt04": gdjs.goniometro_95simulador9Code.GDbt04Objects2});gdjs.goniometro_95simulador9Code.eventsList31 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+{
+{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
+gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11780508);
+}
+}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("txtA1vl"), gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3);
+gdjs.copyArray(runtimeScene.getObjects("txtEntryA1"), gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3);
+{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].setString(gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].getString() + ("4"));
+}
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3[i].setString(gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3[i].getString() + ("4"));
+}
+}}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.eventsList32 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+{
+{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
+gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11733132);
+}
+}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("txtB1vl"), gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2);
+gdjs.copyArray(runtimeScene.getObjects("txtEntryB1"), gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2);
+{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].setString(gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].getString() + ("4"));
+}
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2[i].setString(gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2[i].getString() + ("4"));
+}
+}}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.eventsList33 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 0;
+}if ( gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val ) {
+{
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(4)) == 1;
+}}
+if (gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList31(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 1;
+}if ( gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val ) {
+{
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(4)) == 1;
+}}
+if (gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList32(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.eventsList34 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
+/* Reuse gdjs.goniometro_95simulador9Code.GDbt04Objects2 */
+{gdjs.evtsExt__functionTeclado__sizeButtons.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt04Objects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDbt04Objects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDbt04Objects2[i].returnVariable(gdjs.goniometro_95simulador9Code.GDbt04Objects2[i].getVariables().get("cbt04")).setNumber(0);
+}
+}
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList33(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt05Objects2Objects = Hashtable.newFrom({"bt05": gdjs.goniometro_95simulador9Code.GDbt05Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtCEObjects2Objects = Hashtable.newFrom({"btCE": gdjs.goniometro_95simulador9Code.GDbtCEObjects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt00Objects2Objects = Hashtable.newFrom({"bt00": gdjs.goniometro_95simulador9Code.GDbt00Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt01Objects2Objects = Hashtable.newFrom({"bt01": gdjs.goniometro_95simulador9Code.GDbt01Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt02Objects2Objects = Hashtable.newFrom({"bt02": gdjs.goniometro_95simulador9Code.GDbt02Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt03Objects2Objects = Hashtable.newFrom({"bt03": gdjs.goniometro_95simulador9Code.GDbt03Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt04Objects2Objects = Hashtable.newFrom({"bt04": gdjs.goniometro_95simulador9Code.GDbt04Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt05Objects2Objects = Hashtable.newFrom({"bt05": gdjs.goniometro_95simulador9Code.GDbt05Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt06Objects2Objects = Hashtable.newFrom({"bt06": gdjs.goniometro_95simulador9Code.GDbt06Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt07Objects2Objects = Hashtable.newFrom({"bt07": gdjs.goniometro_95simulador9Code.GDbt07Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt08Objects2Objects = Hashtable.newFrom({"bt08": gdjs.goniometro_95simulador9Code.GDbt08Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects2Objects = Hashtable.newFrom({"bt09": gdjs.goniometro_95simulador9Code.GDbt09Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt05Objects2Objects = Hashtable.newFrom({"bt05": gdjs.goniometro_95simulador9Code.GDbt05Objects2});gdjs.goniometro_95simulador9Code.eventsList35 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+{
+{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
+gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11769300);
+}
+}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("txtA1vl"), gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3);
+gdjs.copyArray(runtimeScene.getObjects("txtEntryA1"), gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3);
+{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].setString(gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].getString() + ("5"));
+}
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3[i].setString(gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3[i].getString() + ("5"));
+}
+}}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.eventsList36 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+{
+{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
+gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9299164);
+}
+}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("txtB1vl"), gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2);
+gdjs.copyArray(runtimeScene.getObjects("txtEntryB1"), gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2);
+{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].setString(gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].getString() + ("5"));
+}
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2[i].setString(gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2[i].getString() + ("5"));
+}
+}}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.eventsList37 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 0;
+}if ( gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val ) {
+{
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(4)) == 1;
+}}
+if (gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList35(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 1;
+}if ( gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val ) {
+{
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(4)) == 1;
+}}
+if (gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList36(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.eventsList38 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
+/* Reuse gdjs.goniometro_95simulador9Code.GDbt05Objects2 */
+{gdjs.evtsExt__functionTeclado__sizeButtons.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt05Objects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDbt05Objects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDbt05Objects2[i].returnVariable(gdjs.goniometro_95simulador9Code.GDbt05Objects2[i].getVariables().get("cbt05")).setNumber(0);
+}
+}
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList37(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt06Objects2Objects = Hashtable.newFrom({"bt06": gdjs.goniometro_95simulador9Code.GDbt06Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtCEObjects2Objects = Hashtable.newFrom({"btCE": gdjs.goniometro_95simulador9Code.GDbtCEObjects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt00Objects2Objects = Hashtable.newFrom({"bt00": gdjs.goniometro_95simulador9Code.GDbt00Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt01Objects2Objects = Hashtable.newFrom({"bt01": gdjs.goniometro_95simulador9Code.GDbt01Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt02Objects2Objects = Hashtable.newFrom({"bt02": gdjs.goniometro_95simulador9Code.GDbt02Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt03Objects2Objects = Hashtable.newFrom({"bt03": gdjs.goniometro_95simulador9Code.GDbt03Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt04Objects2Objects = Hashtable.newFrom({"bt04": gdjs.goniometro_95simulador9Code.GDbt04Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt05Objects2Objects = Hashtable.newFrom({"bt05": gdjs.goniometro_95simulador9Code.GDbt05Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt06Objects2Objects = Hashtable.newFrom({"bt06": gdjs.goniometro_95simulador9Code.GDbt06Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt07Objects2Objects = Hashtable.newFrom({"bt07": gdjs.goniometro_95simulador9Code.GDbt07Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt08Objects2Objects = Hashtable.newFrom({"bt08": gdjs.goniometro_95simulador9Code.GDbt08Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects2Objects = Hashtable.newFrom({"bt09": gdjs.goniometro_95simulador9Code.GDbt09Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt06Objects2Objects = Hashtable.newFrom({"bt06": gdjs.goniometro_95simulador9Code.GDbt06Objects2});gdjs.goniometro_95simulador9Code.eventsList39 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+{
+{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
+gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11809684);
+}
+}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("txtA1vl"), gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3);
+gdjs.copyArray(runtimeScene.getObjects("txtEntryA1"), gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3);
+{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].setString(gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].getString() + ("6"));
+}
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3[i].setString(gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3[i].getString() + ("6"));
+}
+}}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.eventsList40 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+{
+{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
+gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8824484);
+}
+}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("txtB1vl"), gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2);
+gdjs.copyArray(runtimeScene.getObjects("txtEntryB1"), gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2);
+{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].setString(gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].getString() + ("6"));
+}
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2[i].setString(gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2[i].getString() + ("6"));
+}
+}}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.eventsList41 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 0;
+}if ( gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val ) {
+{
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(4)) == 1;
+}}
+if (gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList39(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 1;
+}if ( gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val ) {
+{
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(4)) == 1;
+}}
+if (gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList40(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.eventsList42 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
+/* Reuse gdjs.goniometro_95simulador9Code.GDbt06Objects2 */
+{gdjs.evtsExt__functionTeclado__sizeButtons.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt06Objects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDbt06Objects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDbt06Objects2[i].returnVariable(gdjs.goniometro_95simulador9Code.GDbt06Objects2[i].getVariables().get("cbt06")).setNumber(0);
+}
+}
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList41(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt07Objects2Objects = Hashtable.newFrom({"bt07": gdjs.goniometro_95simulador9Code.GDbt07Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtCEObjects2Objects = Hashtable.newFrom({"btCE": gdjs.goniometro_95simulador9Code.GDbtCEObjects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt00Objects2Objects = Hashtable.newFrom({"bt00": gdjs.goniometro_95simulador9Code.GDbt00Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt01Objects2Objects = Hashtable.newFrom({"bt01": gdjs.goniometro_95simulador9Code.GDbt01Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt02Objects2Objects = Hashtable.newFrom({"bt02": gdjs.goniometro_95simulador9Code.GDbt02Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt03Objects2Objects = Hashtable.newFrom({"bt03": gdjs.goniometro_95simulador9Code.GDbt03Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt04Objects2Objects = Hashtable.newFrom({"bt04": gdjs.goniometro_95simulador9Code.GDbt04Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt05Objects2Objects = Hashtable.newFrom({"bt05": gdjs.goniometro_95simulador9Code.GDbt05Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt06Objects2Objects = Hashtable.newFrom({"bt06": gdjs.goniometro_95simulador9Code.GDbt06Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt07Objects2Objects = Hashtable.newFrom({"bt07": gdjs.goniometro_95simulador9Code.GDbt07Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt08Objects2Objects = Hashtable.newFrom({"bt08": gdjs.goniometro_95simulador9Code.GDbt08Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects2Objects = Hashtable.newFrom({"bt09": gdjs.goniometro_95simulador9Code.GDbt09Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt07Objects2Objects = Hashtable.newFrom({"bt07": gdjs.goniometro_95simulador9Code.GDbt07Objects2});gdjs.goniometro_95simulador9Code.eventsList43 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+{
+{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
+gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11810620);
+}
+}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("txtA1vl"), gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3);
+gdjs.copyArray(runtimeScene.getObjects("txtEntryA1"), gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3);
+{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].setString(gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].getString() + ("7"));
+}
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3[i].setString(gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3[i].getString() + ("7"));
+}
+}}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.eventsList44 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+{
+{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
+gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11766604);
+}
+}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("txtB1vl"), gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2);
+gdjs.copyArray(runtimeScene.getObjects("txtEntryB1"), gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2);
+{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].setString(gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].getString() + ("7"));
+}
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2[i].setString(gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2[i].getString() + ("7"));
+}
+}}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.eventsList45 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 0;
+}if ( gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val ) {
+{
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(4)) == 1;
+}}
+if (gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList43(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 1;
+}if ( gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val ) {
+{
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(4)) == 1;
+}}
+if (gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList44(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.eventsList46 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
+/* Reuse gdjs.goniometro_95simulador9Code.GDbt07Objects2 */
+{gdjs.evtsExt__functionTeclado__sizeButtons.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt07Objects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDbt07Objects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDbt07Objects2[i].returnVariable(gdjs.goniometro_95simulador9Code.GDbt07Objects2[i].getVariables().get("cbt07")).setNumber(0);
+}
+}
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList45(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt08Objects2Objects = Hashtable.newFrom({"bt08": gdjs.goniometro_95simulador9Code.GDbt08Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtCEObjects2Objects = Hashtable.newFrom({"btCE": gdjs.goniometro_95simulador9Code.GDbtCEObjects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt00Objects2Objects = Hashtable.newFrom({"bt00": gdjs.goniometro_95simulador9Code.GDbt00Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt01Objects2Objects = Hashtable.newFrom({"bt01": gdjs.goniometro_95simulador9Code.GDbt01Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt02Objects2Objects = Hashtable.newFrom({"bt02": gdjs.goniometro_95simulador9Code.GDbt02Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt03Objects2Objects = Hashtable.newFrom({"bt03": gdjs.goniometro_95simulador9Code.GDbt03Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt04Objects2Objects = Hashtable.newFrom({"bt04": gdjs.goniometro_95simulador9Code.GDbt04Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt05Objects2Objects = Hashtable.newFrom({"bt05": gdjs.goniometro_95simulador9Code.GDbt05Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt06Objects2Objects = Hashtable.newFrom({"bt06": gdjs.goniometro_95simulador9Code.GDbt06Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt07Objects2Objects = Hashtable.newFrom({"bt07": gdjs.goniometro_95simulador9Code.GDbt07Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt08Objects2Objects = Hashtable.newFrom({"bt08": gdjs.goniometro_95simulador9Code.GDbt08Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects2Objects = Hashtable.newFrom({"bt09": gdjs.goniometro_95simulador9Code.GDbt09Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt08Objects2Objects = Hashtable.newFrom({"bt08": gdjs.goniometro_95simulador9Code.GDbt08Objects2});gdjs.goniometro_95simulador9Code.eventsList47 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+{
+{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
+gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8823644);
+}
+}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("txtA1vl"), gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3);
+gdjs.copyArray(runtimeScene.getObjects("txtEntryA1"), gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3);
+{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].setString(gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].getString() + ("8"));
+}
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3[i].setString(gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3[i].getString() + ("8"));
+}
+}}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.eventsList48 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+{
+{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
+gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11757836);
+}
+}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("txtB1vl"), gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2);
+gdjs.copyArray(runtimeScene.getObjects("txtEntryB1"), gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2);
+{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].setString(gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].getString() + ("8"));
+}
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2[i].setString(gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2[i].getString() + ("8"));
+}
+}}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.eventsList49 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 0;
+}if ( gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val ) {
+{
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(4)) == 1;
+}}
+if (gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList47(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 1;
+}if ( gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val ) {
+{
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(4)) == 1;
+}}
+if (gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList48(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.eventsList50 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
+/* Reuse gdjs.goniometro_95simulador9Code.GDbt08Objects2 */
+{gdjs.evtsExt__functionTeclado__sizeButtons.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt08Objects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDbt08Objects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDbt08Objects2[i].returnVariable(gdjs.goniometro_95simulador9Code.GDbt08Objects2[i].getVariables().get("cbt08")).setNumber(0);
+}
+}
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList49(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects1Objects = Hashtable.newFrom({"bt09": gdjs.goniometro_95simulador9Code.GDbt09Objects1});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtCEObjects1Objects = Hashtable.newFrom({"btCE": gdjs.goniometro_95simulador9Code.GDbtCEObjects1});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt00Objects1Objects = Hashtable.newFrom({"bt00": gdjs.goniometro_95simulador9Code.GDbt00Objects1});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt01Objects1Objects = Hashtable.newFrom({"bt01": gdjs.goniometro_95simulador9Code.GDbt01Objects1});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt02Objects1Objects = Hashtable.newFrom({"bt02": gdjs.goniometro_95simulador9Code.GDbt02Objects1});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt03Objects1Objects = Hashtable.newFrom({"bt03": gdjs.goniometro_95simulador9Code.GDbt03Objects1});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt04Objects1Objects = Hashtable.newFrom({"bt04": gdjs.goniometro_95simulador9Code.GDbt04Objects1});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt05Objects1Objects = Hashtable.newFrom({"bt05": gdjs.goniometro_95simulador9Code.GDbt05Objects1});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt06Objects1Objects = Hashtable.newFrom({"bt06": gdjs.goniometro_95simulador9Code.GDbt06Objects1});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt07Objects1Objects = Hashtable.newFrom({"bt07": gdjs.goniometro_95simulador9Code.GDbt07Objects1});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt08Objects1Objects = Hashtable.newFrom({"bt08": gdjs.goniometro_95simulador9Code.GDbt08Objects1});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects1Objects = Hashtable.newFrom({"bt09": gdjs.goniometro_95simulador9Code.GDbt09Objects1});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects1Objects = Hashtable.newFrom({"bt09": gdjs.goniometro_95simulador9Code.GDbt09Objects1});gdjs.goniometro_95simulador9Code.eventsList51 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+{
+{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
+gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12461916);
+}
+}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("txtA1vl"), gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects2);
+gdjs.copyArray(runtimeScene.getObjects("txtEntryA1"), gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects2);
+{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects2[i].setString(gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects2[i].getString() + ("9"));
+}
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects2[i].setString(gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects2[i].getString() + ("9"));
+}
+}}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.eventsList52 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+{
+{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
+gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9992572);
+}
+}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("txtB1vl"), gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects1);
+gdjs.copyArray(runtimeScene.getObjects("txtEntryB1"), gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects1);
+{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects1.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects1[i].setString(gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects1[i].getString() + ("9"));
+}
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects1.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects1[i].setString(gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects1[i].getString() + ("9"));
+}
+}}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.eventsList53 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 0;
+}if ( gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val ) {
+{
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(4)) == 1;
+}}
+if (gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList51(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 1;
+}if ( gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val ) {
+{
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(4)) == 1;
+}}
+if (gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList52(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.eventsList54 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
+/* Reuse gdjs.goniometro_95simulador9Code.GDbt09Objects1 */
+{gdjs.evtsExt__functionTeclado__sizeButtons.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects1Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDbt09Objects1.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDbt09Objects1[i].returnVariable(gdjs.goniometro_95simulador9Code.GDbt09Objects1[i].getVariables().get("cbt09")).setNumber(0);
+}
+}
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList53(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.goniometro_95simulador9Code.eventsList55 = function(runtimeScene) {
+
+{
+
+
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("txtA1"), gdjs.goniometro_95simulador9Code.GDtxtA1Objects2);
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDtxtA1Objects2Objects, runtimeScene, false, false);
+}if ( gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val ) {
+{
+for(var i = 0, k = 0, l = gdjs.goniometro_95simulador9Code.GDtxtA1Objects2.length;i<l;++i) {
+    if ( gdjs.goniometro_95simulador9Code.GDtxtA1Objects2[i].getVariableNumber(gdjs.goniometro_95simulador9Code.GDtxtA1Objects2[i].getVariables().get("ctxta1")) == 0 ) {
+        gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = true;
+        gdjs.goniometro_95simulador9Code.GDtxtA1Objects2[k] = gdjs.goniometro_95simulador9Code.GDtxtA1Objects2[i];
+        ++k;
+    }
+}
+gdjs.goniometro_95simulador9Code.GDtxtA1Objects2.length = k;}}
+if (gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList4(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("txtB1"), gdjs.goniometro_95simulador9Code.GDtxtB1Objects2);
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDtxtB1Objects2Objects, runtimeScene, false, false);
+}if ( gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val ) {
+{
+for(var i = 0, k = 0, l = gdjs.goniometro_95simulador9Code.GDtxtB1Objects2.length;i<l;++i) {
+    if ( gdjs.goniometro_95simulador9Code.GDtxtB1Objects2[i].getVariableNumber(gdjs.goniometro_95simulador9Code.GDtxtB1Objects2[i].getVariables().get("ctxtb1")) == 0 ) {
+        gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = true;
+        gdjs.goniometro_95simulador9Code.GDtxtB1Objects2[k] = gdjs.goniometro_95simulador9Code.GDtxtB1Objects2[i];
+        ++k;
+    }
+}
+gdjs.goniometro_95simulador9Code.GDtxtB1Objects2.length = k;}}
+if (gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val) {
+
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList6(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("btConf"), gdjs.goniometro_95simulador9Code.GDbtConfObjects2);
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtConfObjects2Objects, runtimeScene, false, false);
+}if ( gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val ) {
+{
+for(var i = 0, k = 0, l = gdjs.goniometro_95simulador9Code.GDbtConfObjects2.length;i<l;++i) {
+    if ( gdjs.goniometro_95simulador9Code.GDbtConfObjects2[i].getVariableNumber(gdjs.goniometro_95simulador9Code.GDbtConfObjects2[i].getVariables().get("cbtconf")) == 0 ) {
+        gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = true;
+        gdjs.goniometro_95simulador9Code.GDbtConfObjects2[k] = gdjs.goniometro_95simulador9Code.GDbtConfObjects2[i];
+        ++k;
+    }
+}
+gdjs.goniometro_95simulador9Code.GDbtConfObjects2.length = k;}}
+if (gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val) {
+/* Reuse gdjs.goniometro_95simulador9Code.GDbtConfObjects2 */
+{gdjs.evtsExt__functionTeclado__defautButtonsConf.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtConfObjects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+{ //Subevents
+gdjs.goniometro_95simulador9Code.eventsList7(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+
+}
+
 
 {
 
@@ -1121,970 +2386,6 @@ gdjs.goniometro_95simulador9Code.eventsList9(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.goniometro_95simulador9Code.eventsList11 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-/* Reuse gdjs.goniometro_95simulador9Code.GDbtCEObjects2 */
-{gdjs.evtsExt__functionTeclado__sizeButtons.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtCEObjects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDbtCEObjects2.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDbtCEObjects2[i].returnVariable(gdjs.goniometro_95simulador9Code.GDbtCEObjects2[i].getVariables().get("cbtCE")).setNumber(0);
-}
-}
-{ //Subevents
-gdjs.goniometro_95simulador9Code.eventsList10(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt00Objects2Objects = Hashtable.newFrom({"bt00": gdjs.goniometro_95simulador9Code.GDbt00Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtCEObjects2Objects = Hashtable.newFrom({"btCE": gdjs.goniometro_95simulador9Code.GDbtCEObjects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt00Objects2Objects = Hashtable.newFrom({"bt00": gdjs.goniometro_95simulador9Code.GDbt00Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt01Objects2Objects = Hashtable.newFrom({"bt01": gdjs.goniometro_95simulador9Code.GDbt01Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt02Objects2Objects = Hashtable.newFrom({"bt02": gdjs.goniometro_95simulador9Code.GDbt02Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt03Objects2Objects = Hashtable.newFrom({"bt03": gdjs.goniometro_95simulador9Code.GDbt03Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt04Objects2Objects = Hashtable.newFrom({"bt04": gdjs.goniometro_95simulador9Code.GDbt04Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt05Objects2Objects = Hashtable.newFrom({"bt05": gdjs.goniometro_95simulador9Code.GDbt05Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt06Objects2Objects = Hashtable.newFrom({"bt06": gdjs.goniometro_95simulador9Code.GDbt06Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt07Objects2Objects = Hashtable.newFrom({"bt07": gdjs.goniometro_95simulador9Code.GDbt07Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt08Objects2Objects = Hashtable.newFrom({"bt08": gdjs.goniometro_95simulador9Code.GDbt08Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects2Objects = Hashtable.newFrom({"bt09": gdjs.goniometro_95simulador9Code.GDbt09Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt00Objects2Objects = Hashtable.newFrom({"bt00": gdjs.goniometro_95simulador9Code.GDbt00Objects2});gdjs.goniometro_95simulador9Code.eventsList12 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
-gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10014556);
-}
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("txtA1vl"), gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3);
-{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].setString(gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].getString() + ("0"));
-}
-}}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.eventsList13 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
-gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10017860);
-}
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("txtB1vl"), gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2);
-{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].setString(gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].getString() + ("0"));
-}
-}}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.eventsList14 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 0;
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-
-{ //Subevents
-gdjs.goniometro_95simulador9Code.eventsList12(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 1;
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-
-{ //Subevents
-gdjs.goniometro_95simulador9Code.eventsList13(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.eventsList15 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-/* Reuse gdjs.goniometro_95simulador9Code.GDbt00Objects2 */
-{gdjs.evtsExt__functionTeclado__sizeButtons.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt00Objects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDbt00Objects2.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDbt00Objects2[i].returnVariable(gdjs.goniometro_95simulador9Code.GDbt00Objects2[i].getVariables().get("cbt00")).setNumber(0);
-}
-}
-{ //Subevents
-gdjs.goniometro_95simulador9Code.eventsList14(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt01Objects2Objects = Hashtable.newFrom({"bt01": gdjs.goniometro_95simulador9Code.GDbt01Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtCEObjects2Objects = Hashtable.newFrom({"btCE": gdjs.goniometro_95simulador9Code.GDbtCEObjects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt00Objects2Objects = Hashtable.newFrom({"bt00": gdjs.goniometro_95simulador9Code.GDbt00Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt01Objects2Objects = Hashtable.newFrom({"bt01": gdjs.goniometro_95simulador9Code.GDbt01Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt02Objects2Objects = Hashtable.newFrom({"bt02": gdjs.goniometro_95simulador9Code.GDbt02Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt03Objects2Objects = Hashtable.newFrom({"bt03": gdjs.goniometro_95simulador9Code.GDbt03Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt04Objects2Objects = Hashtable.newFrom({"bt04": gdjs.goniometro_95simulador9Code.GDbt04Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt05Objects2Objects = Hashtable.newFrom({"bt05": gdjs.goniometro_95simulador9Code.GDbt05Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt06Objects2Objects = Hashtable.newFrom({"bt06": gdjs.goniometro_95simulador9Code.GDbt06Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt07Objects2Objects = Hashtable.newFrom({"bt07": gdjs.goniometro_95simulador9Code.GDbt07Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt08Objects2Objects = Hashtable.newFrom({"bt08": gdjs.goniometro_95simulador9Code.GDbt08Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects2Objects = Hashtable.newFrom({"bt09": gdjs.goniometro_95simulador9Code.GDbt09Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt01Objects2Objects = Hashtable.newFrom({"bt01": gdjs.goniometro_95simulador9Code.GDbt01Objects2});gdjs.goniometro_95simulador9Code.eventsList16 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
-gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10019132);
-}
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("txtA1vl"), gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3);
-{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].setString(gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].getString() + ("1"));
-}
-}}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.eventsList17 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
-gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8170916);
-}
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("txtB1vl"), gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2);
-{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].setString(gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].getString() + ("1"));
-}
-}}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.eventsList18 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 0;
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-
-{ //Subevents
-gdjs.goniometro_95simulador9Code.eventsList16(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 1;
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-
-{ //Subevents
-gdjs.goniometro_95simulador9Code.eventsList17(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.eventsList19 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-/* Reuse gdjs.goniometro_95simulador9Code.GDbt01Objects2 */
-{gdjs.evtsExt__functionTeclado__sizeButtons.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt01Objects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDbt01Objects2.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDbt01Objects2[i].returnVariable(gdjs.goniometro_95simulador9Code.GDbt01Objects2[i].getVariables().get("cbt01")).setNumber(0);
-}
-}
-{ //Subevents
-gdjs.goniometro_95simulador9Code.eventsList18(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt02Objects2Objects = Hashtable.newFrom({"bt02": gdjs.goniometro_95simulador9Code.GDbt02Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtCEObjects2Objects = Hashtable.newFrom({"btCE": gdjs.goniometro_95simulador9Code.GDbtCEObjects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt00Objects2Objects = Hashtable.newFrom({"bt00": gdjs.goniometro_95simulador9Code.GDbt00Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt01Objects2Objects = Hashtable.newFrom({"bt01": gdjs.goniometro_95simulador9Code.GDbt01Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt02Objects2Objects = Hashtable.newFrom({"bt02": gdjs.goniometro_95simulador9Code.GDbt02Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt03Objects2Objects = Hashtable.newFrom({"bt03": gdjs.goniometro_95simulador9Code.GDbt03Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt04Objects2Objects = Hashtable.newFrom({"bt04": gdjs.goniometro_95simulador9Code.GDbt04Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt05Objects2Objects = Hashtable.newFrom({"bt05": gdjs.goniometro_95simulador9Code.GDbt05Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt06Objects2Objects = Hashtable.newFrom({"bt06": gdjs.goniometro_95simulador9Code.GDbt06Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt07Objects2Objects = Hashtable.newFrom({"bt07": gdjs.goniometro_95simulador9Code.GDbt07Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt08Objects2Objects = Hashtable.newFrom({"bt08": gdjs.goniometro_95simulador9Code.GDbt08Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects2Objects = Hashtable.newFrom({"bt09": gdjs.goniometro_95simulador9Code.GDbt09Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt02Objects2Objects = Hashtable.newFrom({"bt02": gdjs.goniometro_95simulador9Code.GDbt02Objects2});gdjs.goniometro_95simulador9Code.eventsList20 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
-gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9945372);
-}
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("txtA1vl"), gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3);
-{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].setString(gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].getString() + ("2"));
-}
-}}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.eventsList21 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
-gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10002756);
-}
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("txtB1vl"), gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2);
-{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].setString(gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].getString() + ("2"));
-}
-}}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.eventsList22 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 0;
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-
-{ //Subevents
-gdjs.goniometro_95simulador9Code.eventsList20(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 1;
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-
-{ //Subevents
-gdjs.goniometro_95simulador9Code.eventsList21(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.eventsList23 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-/* Reuse gdjs.goniometro_95simulador9Code.GDbt02Objects2 */
-{gdjs.evtsExt__functionTeclado__sizeButtons.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt02Objects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDbt02Objects2.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDbt02Objects2[i].returnVariable(gdjs.goniometro_95simulador9Code.GDbt02Objects2[i].getVariables().get("cbt02")).setNumber(0);
-}
-}
-{ //Subevents
-gdjs.goniometro_95simulador9Code.eventsList22(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt03Objects2Objects = Hashtable.newFrom({"bt03": gdjs.goniometro_95simulador9Code.GDbt03Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtCEObjects2Objects = Hashtable.newFrom({"btCE": gdjs.goniometro_95simulador9Code.GDbtCEObjects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt00Objects2Objects = Hashtable.newFrom({"bt00": gdjs.goniometro_95simulador9Code.GDbt00Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt01Objects2Objects = Hashtable.newFrom({"bt01": gdjs.goniometro_95simulador9Code.GDbt01Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt02Objects2Objects = Hashtable.newFrom({"bt02": gdjs.goniometro_95simulador9Code.GDbt02Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt03Objects2Objects = Hashtable.newFrom({"bt03": gdjs.goniometro_95simulador9Code.GDbt03Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt04Objects2Objects = Hashtable.newFrom({"bt04": gdjs.goniometro_95simulador9Code.GDbt04Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt05Objects2Objects = Hashtable.newFrom({"bt05": gdjs.goniometro_95simulador9Code.GDbt05Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt06Objects2Objects = Hashtable.newFrom({"bt06": gdjs.goniometro_95simulador9Code.GDbt06Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt07Objects2Objects = Hashtable.newFrom({"bt07": gdjs.goniometro_95simulador9Code.GDbt07Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt08Objects2Objects = Hashtable.newFrom({"bt08": gdjs.goniometro_95simulador9Code.GDbt08Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects2Objects = Hashtable.newFrom({"bt09": gdjs.goniometro_95simulador9Code.GDbt09Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt03Objects2Objects = Hashtable.newFrom({"bt03": gdjs.goniometro_95simulador9Code.GDbt03Objects2});gdjs.goniometro_95simulador9Code.eventsList24 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
-gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10001700);
-}
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("txtA1vl"), gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3);
-{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].setString(gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].getString() + ("3"));
-}
-}}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.eventsList25 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
-gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9984988);
-}
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("txtB1vl"), gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2);
-{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].setString(gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].getString() + ("3"));
-}
-}}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.eventsList26 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 0;
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-
-{ //Subevents
-gdjs.goniometro_95simulador9Code.eventsList24(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 1;
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-
-{ //Subevents
-gdjs.goniometro_95simulador9Code.eventsList25(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.eventsList27 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-/* Reuse gdjs.goniometro_95simulador9Code.GDbt03Objects2 */
-{gdjs.evtsExt__functionTeclado__sizeButtons.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt03Objects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDbt03Objects2.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDbt03Objects2[i].returnVariable(gdjs.goniometro_95simulador9Code.GDbt03Objects2[i].getVariables().get("cbt03")).setNumber(0);
-}
-}
-{ //Subevents
-gdjs.goniometro_95simulador9Code.eventsList26(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt04Objects2Objects = Hashtable.newFrom({"bt04": gdjs.goniometro_95simulador9Code.GDbt04Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtCEObjects2Objects = Hashtable.newFrom({"btCE": gdjs.goniometro_95simulador9Code.GDbtCEObjects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt00Objects2Objects = Hashtable.newFrom({"bt00": gdjs.goniometro_95simulador9Code.GDbt00Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt01Objects2Objects = Hashtable.newFrom({"bt01": gdjs.goniometro_95simulador9Code.GDbt01Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt02Objects2Objects = Hashtable.newFrom({"bt02": gdjs.goniometro_95simulador9Code.GDbt02Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt03Objects2Objects = Hashtable.newFrom({"bt03": gdjs.goniometro_95simulador9Code.GDbt03Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt04Objects2Objects = Hashtable.newFrom({"bt04": gdjs.goniometro_95simulador9Code.GDbt04Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt05Objects2Objects = Hashtable.newFrom({"bt05": gdjs.goniometro_95simulador9Code.GDbt05Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt06Objects2Objects = Hashtable.newFrom({"bt06": gdjs.goniometro_95simulador9Code.GDbt06Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt07Objects2Objects = Hashtable.newFrom({"bt07": gdjs.goniometro_95simulador9Code.GDbt07Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt08Objects2Objects = Hashtable.newFrom({"bt08": gdjs.goniometro_95simulador9Code.GDbt08Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects2Objects = Hashtable.newFrom({"bt09": gdjs.goniometro_95simulador9Code.GDbt09Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt04Objects2Objects = Hashtable.newFrom({"bt04": gdjs.goniometro_95simulador9Code.GDbt04Objects2});gdjs.goniometro_95simulador9Code.eventsList28 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
-gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10402708);
-}
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("txtA1vl"), gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3);
-{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].setString(gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].getString() + ("4"));
-}
-}}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.eventsList29 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
-gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9951444);
-}
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("txtB1vl"), gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2);
-{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].setString(gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].getString() + ("4"));
-}
-}}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.eventsList30 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 0;
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-
-{ //Subevents
-gdjs.goniometro_95simulador9Code.eventsList28(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 1;
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-
-{ //Subevents
-gdjs.goniometro_95simulador9Code.eventsList29(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.eventsList31 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-/* Reuse gdjs.goniometro_95simulador9Code.GDbt04Objects2 */
-{gdjs.evtsExt__functionTeclado__sizeButtons.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt04Objects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDbt04Objects2.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDbt04Objects2[i].returnVariable(gdjs.goniometro_95simulador9Code.GDbt04Objects2[i].getVariables().get("cbt04")).setNumber(0);
-}
-}
-{ //Subevents
-gdjs.goniometro_95simulador9Code.eventsList30(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt05Objects2Objects = Hashtable.newFrom({"bt05": gdjs.goniometro_95simulador9Code.GDbt05Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtCEObjects2Objects = Hashtable.newFrom({"btCE": gdjs.goniometro_95simulador9Code.GDbtCEObjects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt00Objects2Objects = Hashtable.newFrom({"bt00": gdjs.goniometro_95simulador9Code.GDbt00Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt01Objects2Objects = Hashtable.newFrom({"bt01": gdjs.goniometro_95simulador9Code.GDbt01Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt02Objects2Objects = Hashtable.newFrom({"bt02": gdjs.goniometro_95simulador9Code.GDbt02Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt03Objects2Objects = Hashtable.newFrom({"bt03": gdjs.goniometro_95simulador9Code.GDbt03Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt04Objects2Objects = Hashtable.newFrom({"bt04": gdjs.goniometro_95simulador9Code.GDbt04Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt05Objects2Objects = Hashtable.newFrom({"bt05": gdjs.goniometro_95simulador9Code.GDbt05Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt06Objects2Objects = Hashtable.newFrom({"bt06": gdjs.goniometro_95simulador9Code.GDbt06Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt07Objects2Objects = Hashtable.newFrom({"bt07": gdjs.goniometro_95simulador9Code.GDbt07Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt08Objects2Objects = Hashtable.newFrom({"bt08": gdjs.goniometro_95simulador9Code.GDbt08Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects2Objects = Hashtable.newFrom({"bt09": gdjs.goniometro_95simulador9Code.GDbt09Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt05Objects2Objects = Hashtable.newFrom({"bt05": gdjs.goniometro_95simulador9Code.GDbt05Objects2});gdjs.goniometro_95simulador9Code.eventsList32 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
-gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9989004);
-}
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("txtA1vl"), gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3);
-{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].setString(gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].getString() + ("5"));
-}
-}}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.eventsList33 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
-gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9963020);
-}
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("txtB1vl"), gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2);
-{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].setString(gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].getString() + ("5"));
-}
-}}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.eventsList34 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 0;
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-
-{ //Subevents
-gdjs.goniometro_95simulador9Code.eventsList32(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 1;
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-
-{ //Subevents
-gdjs.goniometro_95simulador9Code.eventsList33(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.eventsList35 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-/* Reuse gdjs.goniometro_95simulador9Code.GDbt05Objects2 */
-{gdjs.evtsExt__functionTeclado__sizeButtons.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt05Objects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDbt05Objects2.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDbt05Objects2[i].returnVariable(gdjs.goniometro_95simulador9Code.GDbt05Objects2[i].getVariables().get("cbt05")).setNumber(0);
-}
-}
-{ //Subevents
-gdjs.goniometro_95simulador9Code.eventsList34(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt06Objects2Objects = Hashtable.newFrom({"bt06": gdjs.goniometro_95simulador9Code.GDbt06Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtCEObjects2Objects = Hashtable.newFrom({"btCE": gdjs.goniometro_95simulador9Code.GDbtCEObjects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt00Objects2Objects = Hashtable.newFrom({"bt00": gdjs.goniometro_95simulador9Code.GDbt00Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt01Objects2Objects = Hashtable.newFrom({"bt01": gdjs.goniometro_95simulador9Code.GDbt01Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt02Objects2Objects = Hashtable.newFrom({"bt02": gdjs.goniometro_95simulador9Code.GDbt02Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt03Objects2Objects = Hashtable.newFrom({"bt03": gdjs.goniometro_95simulador9Code.GDbt03Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt04Objects2Objects = Hashtable.newFrom({"bt04": gdjs.goniometro_95simulador9Code.GDbt04Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt05Objects2Objects = Hashtable.newFrom({"bt05": gdjs.goniometro_95simulador9Code.GDbt05Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt06Objects2Objects = Hashtable.newFrom({"bt06": gdjs.goniometro_95simulador9Code.GDbt06Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt07Objects2Objects = Hashtable.newFrom({"bt07": gdjs.goniometro_95simulador9Code.GDbt07Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt08Objects2Objects = Hashtable.newFrom({"bt08": gdjs.goniometro_95simulador9Code.GDbt08Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects2Objects = Hashtable.newFrom({"bt09": gdjs.goniometro_95simulador9Code.GDbt09Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt06Objects2Objects = Hashtable.newFrom({"bt06": gdjs.goniometro_95simulador9Code.GDbt06Objects2});gdjs.goniometro_95simulador9Code.eventsList36 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
-gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10009508);
-}
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("txtA1vl"), gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3);
-{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].setString(gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].getString() + ("6"));
-}
-}}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.eventsList37 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
-gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9987396);
-}
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("txtB1vl"), gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2);
-{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].setString(gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].getString() + ("6"));
-}
-}}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.eventsList38 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 0;
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-
-{ //Subevents
-gdjs.goniometro_95simulador9Code.eventsList36(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 1;
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-
-{ //Subevents
-gdjs.goniometro_95simulador9Code.eventsList37(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.eventsList39 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-/* Reuse gdjs.goniometro_95simulador9Code.GDbt06Objects2 */
-{gdjs.evtsExt__functionTeclado__sizeButtons.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt06Objects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDbt06Objects2.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDbt06Objects2[i].returnVariable(gdjs.goniometro_95simulador9Code.GDbt06Objects2[i].getVariables().get("cbt06")).setNumber(0);
-}
-}
-{ //Subevents
-gdjs.goniometro_95simulador9Code.eventsList38(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt07Objects2Objects = Hashtable.newFrom({"bt07": gdjs.goniometro_95simulador9Code.GDbt07Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtCEObjects2Objects = Hashtable.newFrom({"btCE": gdjs.goniometro_95simulador9Code.GDbtCEObjects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt00Objects2Objects = Hashtable.newFrom({"bt00": gdjs.goniometro_95simulador9Code.GDbt00Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt01Objects2Objects = Hashtable.newFrom({"bt01": gdjs.goniometro_95simulador9Code.GDbt01Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt02Objects2Objects = Hashtable.newFrom({"bt02": gdjs.goniometro_95simulador9Code.GDbt02Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt03Objects2Objects = Hashtable.newFrom({"bt03": gdjs.goniometro_95simulador9Code.GDbt03Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt04Objects2Objects = Hashtable.newFrom({"bt04": gdjs.goniometro_95simulador9Code.GDbt04Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt05Objects2Objects = Hashtable.newFrom({"bt05": gdjs.goniometro_95simulador9Code.GDbt05Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt06Objects2Objects = Hashtable.newFrom({"bt06": gdjs.goniometro_95simulador9Code.GDbt06Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt07Objects2Objects = Hashtable.newFrom({"bt07": gdjs.goniometro_95simulador9Code.GDbt07Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt08Objects2Objects = Hashtable.newFrom({"bt08": gdjs.goniometro_95simulador9Code.GDbt08Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects2Objects = Hashtable.newFrom({"bt09": gdjs.goniometro_95simulador9Code.GDbt09Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt07Objects2Objects = Hashtable.newFrom({"bt07": gdjs.goniometro_95simulador9Code.GDbt07Objects2});gdjs.goniometro_95simulador9Code.eventsList40 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
-gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10006548);
-}
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("txtA1vl"), gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3);
-{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].setString(gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].getString() + ("7"));
-}
-}}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.eventsList41 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
-gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10030420);
-}
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("txtB1vl"), gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2);
-{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].setString(gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].getString() + ("7"));
-}
-}}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.eventsList42 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 0;
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-
-{ //Subevents
-gdjs.goniometro_95simulador9Code.eventsList40(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 1;
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-
-{ //Subevents
-gdjs.goniometro_95simulador9Code.eventsList41(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.eventsList43 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-/* Reuse gdjs.goniometro_95simulador9Code.GDbt07Objects2 */
-{gdjs.evtsExt__functionTeclado__sizeButtons.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt07Objects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDbt07Objects2.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDbt07Objects2[i].returnVariable(gdjs.goniometro_95simulador9Code.GDbt07Objects2[i].getVariables().get("cbt07")).setNumber(0);
-}
-}
-{ //Subevents
-gdjs.goniometro_95simulador9Code.eventsList42(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt08Objects2Objects = Hashtable.newFrom({"bt08": gdjs.goniometro_95simulador9Code.GDbt08Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtCEObjects2Objects = Hashtable.newFrom({"btCE": gdjs.goniometro_95simulador9Code.GDbtCEObjects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt00Objects2Objects = Hashtable.newFrom({"bt00": gdjs.goniometro_95simulador9Code.GDbt00Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt01Objects2Objects = Hashtable.newFrom({"bt01": gdjs.goniometro_95simulador9Code.GDbt01Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt02Objects2Objects = Hashtable.newFrom({"bt02": gdjs.goniometro_95simulador9Code.GDbt02Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt03Objects2Objects = Hashtable.newFrom({"bt03": gdjs.goniometro_95simulador9Code.GDbt03Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt04Objects2Objects = Hashtable.newFrom({"bt04": gdjs.goniometro_95simulador9Code.GDbt04Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt05Objects2Objects = Hashtable.newFrom({"bt05": gdjs.goniometro_95simulador9Code.GDbt05Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt06Objects2Objects = Hashtable.newFrom({"bt06": gdjs.goniometro_95simulador9Code.GDbt06Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt07Objects2Objects = Hashtable.newFrom({"bt07": gdjs.goniometro_95simulador9Code.GDbt07Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt08Objects2Objects = Hashtable.newFrom({"bt08": gdjs.goniometro_95simulador9Code.GDbt08Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects2Objects = Hashtable.newFrom({"bt09": gdjs.goniometro_95simulador9Code.GDbt09Objects2});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt08Objects2Objects = Hashtable.newFrom({"bt08": gdjs.goniometro_95simulador9Code.GDbt08Objects2});gdjs.goniometro_95simulador9Code.eventsList44 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
-gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9980940);
-}
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("txtA1vl"), gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3);
-{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].setString(gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].getString() + ("8"));
-}
-}}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.eventsList45 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
-gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10008676);
-}
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("txtB1vl"), gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2);
-{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].setString(gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].getString() + ("8"));
-}
-}}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.eventsList46 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 0;
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-
-{ //Subevents
-gdjs.goniometro_95simulador9Code.eventsList44(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 1;
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-
-{ //Subevents
-gdjs.goniometro_95simulador9Code.eventsList45(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.eventsList47 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-/* Reuse gdjs.goniometro_95simulador9Code.GDbt08Objects2 */
-{gdjs.evtsExt__functionTeclado__sizeButtons.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt08Objects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDbt08Objects2.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDbt08Objects2[i].returnVariable(gdjs.goniometro_95simulador9Code.GDbt08Objects2[i].getVariables().get("cbt08")).setNumber(0);
-}
-}
-{ //Subevents
-gdjs.goniometro_95simulador9Code.eventsList46(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects1Objects = Hashtable.newFrom({"bt09": gdjs.goniometro_95simulador9Code.GDbt09Objects1});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtCEObjects1Objects = Hashtable.newFrom({"btCE": gdjs.goniometro_95simulador9Code.GDbtCEObjects1});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt00Objects1Objects = Hashtable.newFrom({"bt00": gdjs.goniometro_95simulador9Code.GDbt00Objects1});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt01Objects1Objects = Hashtable.newFrom({"bt01": gdjs.goniometro_95simulador9Code.GDbt01Objects1});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt02Objects1Objects = Hashtable.newFrom({"bt02": gdjs.goniometro_95simulador9Code.GDbt02Objects1});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt03Objects1Objects = Hashtable.newFrom({"bt03": gdjs.goniometro_95simulador9Code.GDbt03Objects1});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt04Objects1Objects = Hashtable.newFrom({"bt04": gdjs.goniometro_95simulador9Code.GDbt04Objects1});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt05Objects1Objects = Hashtable.newFrom({"bt05": gdjs.goniometro_95simulador9Code.GDbt05Objects1});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt06Objects1Objects = Hashtable.newFrom({"bt06": gdjs.goniometro_95simulador9Code.GDbt06Objects1});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt07Objects1Objects = Hashtable.newFrom({"bt07": gdjs.goniometro_95simulador9Code.GDbt07Objects1});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt08Objects1Objects = Hashtable.newFrom({"bt08": gdjs.goniometro_95simulador9Code.GDbt08Objects1});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects1Objects = Hashtable.newFrom({"bt09": gdjs.goniometro_95simulador9Code.GDbt09Objects1});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects1Objects = Hashtable.newFrom({"bt09": gdjs.goniometro_95simulador9Code.GDbt09Objects1});gdjs.goniometro_95simulador9Code.eventsList48 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
-gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10392556);
-}
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("txtA1vl"), gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects2);
-{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects2.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects2[i].setString(gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects2[i].getString() + ("9"));
-}
-}}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.eventsList49 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-{gdjs.goniometro_95simulador9Code.conditionTrue_1 = gdjs.goniometro_95simulador9Code.condition0IsTrue_0;
-gdjs.goniometro_95simulador9Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10393268);
-}
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("txtB1vl"), gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects1);
-{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects1.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects1[i].setString(gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects1[i].getString() + ("9"));
-}
-}}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.eventsList50 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 0;
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-
-{ //Subevents
-gdjs.goniometro_95simulador9Code.eventsList48(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 1;
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-
-{ //Subevents
-gdjs.goniometro_95simulador9Code.eventsList49(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.eventsList51 = function(runtimeScene) {
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-/* Reuse gdjs.goniometro_95simulador9Code.GDbt09Objects1 */
-{gdjs.evtsExt__functionTeclado__sizeButtons.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects1Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDbt09Objects1.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDbt09Objects1[i].returnVariable(gdjs.goniometro_95simulador9Code.GDbt09Objects1[i].getVariables().get("cbt09")).setNumber(0);
-}
-}
-{ //Subevents
-gdjs.goniometro_95simulador9Code.eventsList50(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.goniometro_95simulador9Code.eventsList52 = function(runtimeScene) {
-
 {
 
 
@@ -2106,7 +2407,7 @@ gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.cu
 }
 }
 { //Subevents
-gdjs.goniometro_95simulador9Code.eventsList7(runtimeScene);} //End of subevents
+gdjs.goniometro_95simulador9Code.eventsList10(runtimeScene);} //End of subevents
 }
 
 }
@@ -2162,7 +2463,66 @@ gdjs.copyArray(runtimeScene.getObjects("bt09"), gdjs.goniometro_95simulador9Code
 }{gdjs.evtsExt__functionTeclado__defautButtons.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 { //Subevents
-gdjs.goniometro_95simulador9Code.eventsList11(runtimeScene);} //End of subevents
+gdjs.goniometro_95simulador9Code.eventsList14(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Delete");
+}if ( gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val ) {
+{
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 0;
+}}
+if (gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("txtA1vl"), gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects2);
+gdjs.copyArray(runtimeScene.getObjects("txtEntryA1"), gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects2);
+{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects2[i].setString("");
+}
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects2[i].setString("");
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Delete");
+}if ( gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val ) {
+{
+gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) == 1;
+}}
+if (gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("txtB1vl"), gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2);
+gdjs.copyArray(runtimeScene.getObjects("txtEntryB1"), gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2);
+{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects2[i].setString("");
+}
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2[i].setString("");
+}
+}}
+
+}
+
+
+{
+
+
+{
 }
 
 }
@@ -2218,7 +2578,7 @@ gdjs.copyArray(runtimeScene.getObjects("btCE"), gdjs.goniometro_95simulador9Code
 }{gdjs.evtsExt__functionTeclado__defautButtons.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 { //Subevents
-gdjs.goniometro_95simulador9Code.eventsList15(runtimeScene);} //End of subevents
+gdjs.goniometro_95simulador9Code.eventsList18(runtimeScene);} //End of subevents
 }
 
 }
@@ -2274,7 +2634,7 @@ gdjs.copyArray(runtimeScene.getObjects("btCE"), gdjs.goniometro_95simulador9Code
 }{gdjs.evtsExt__functionTeclado__defautButtons.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 { //Subevents
-gdjs.goniometro_95simulador9Code.eventsList19(runtimeScene);} //End of subevents
+gdjs.goniometro_95simulador9Code.eventsList22(runtimeScene);} //End of subevents
 }
 
 }
@@ -2330,7 +2690,7 @@ gdjs.copyArray(runtimeScene.getObjects("btCE"), gdjs.goniometro_95simulador9Code
 }{gdjs.evtsExt__functionTeclado__defautButtons.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 { //Subevents
-gdjs.goniometro_95simulador9Code.eventsList23(runtimeScene);} //End of subevents
+gdjs.goniometro_95simulador9Code.eventsList26(runtimeScene);} //End of subevents
 }
 
 }
@@ -2386,7 +2746,7 @@ gdjs.copyArray(runtimeScene.getObjects("btCE"), gdjs.goniometro_95simulador9Code
 }{gdjs.evtsExt__functionTeclado__defautButtons.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 { //Subevents
-gdjs.goniometro_95simulador9Code.eventsList27(runtimeScene);} //End of subevents
+gdjs.goniometro_95simulador9Code.eventsList30(runtimeScene);} //End of subevents
 }
 
 }
@@ -2442,7 +2802,7 @@ gdjs.copyArray(runtimeScene.getObjects("btCE"), gdjs.goniometro_95simulador9Code
 }{gdjs.evtsExt__functionTeclado__defautButtons.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 { //Subevents
-gdjs.goniometro_95simulador9Code.eventsList31(runtimeScene);} //End of subevents
+gdjs.goniometro_95simulador9Code.eventsList34(runtimeScene);} //End of subevents
 }
 
 }
@@ -2498,7 +2858,7 @@ gdjs.copyArray(runtimeScene.getObjects("btCE"), gdjs.goniometro_95simulador9Code
 }{gdjs.evtsExt__functionTeclado__defautButtons.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 { //Subevents
-gdjs.goniometro_95simulador9Code.eventsList35(runtimeScene);} //End of subevents
+gdjs.goniometro_95simulador9Code.eventsList38(runtimeScene);} //End of subevents
 }
 
 }
@@ -2554,7 +2914,7 @@ gdjs.copyArray(runtimeScene.getObjects("btCE"), gdjs.goniometro_95simulador9Code
 }{gdjs.evtsExt__functionTeclado__defautButtons.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 { //Subevents
-gdjs.goniometro_95simulador9Code.eventsList39(runtimeScene);} //End of subevents
+gdjs.goniometro_95simulador9Code.eventsList42(runtimeScene);} //End of subevents
 }
 
 }
@@ -2610,7 +2970,7 @@ gdjs.copyArray(runtimeScene.getObjects("btCE"), gdjs.goniometro_95simulador9Code
 }{gdjs.evtsExt__functionTeclado__defautButtons.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 { //Subevents
-gdjs.goniometro_95simulador9Code.eventsList43(runtimeScene);} //End of subevents
+gdjs.goniometro_95simulador9Code.eventsList46(runtimeScene);} //End of subevents
 }
 
 }
@@ -2666,7 +3026,7 @@ gdjs.copyArray(runtimeScene.getObjects("btCE"), gdjs.goniometro_95simulador9Code
 }{gdjs.evtsExt__functionTeclado__defautButtons.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 { //Subevents
-gdjs.goniometro_95simulador9Code.eventsList47(runtimeScene);} //End of subevents
+gdjs.goniometro_95simulador9Code.eventsList50(runtimeScene);} //End of subevents
 }
 
 }
@@ -2722,13 +3082,13 @@ gdjs.copyArray(runtimeScene.getObjects("btCE"), gdjs.goniometro_95simulador9Code
 }{gdjs.evtsExt__functionTeclado__defautButtons.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbt09Objects1Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 { //Subevents
-gdjs.goniometro_95simulador9Code.eventsList51(runtimeScene);} //End of subevents
+gdjs.goniometro_95simulador9Code.eventsList54(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtConfObjects1Objects = Hashtable.newFrom({"btConf": gdjs.goniometro_95simulador9Code.GDbtConfObjects1});gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDtxtB1Objects1Objects = Hashtable.newFrom({"txtB1": gdjs.goniometro_95simulador9Code.GDtxtB1Objects1});gdjs.goniometro_95simulador9Code.eventsList53 = function(runtimeScene) {
+};gdjs.goniometro_95simulador9Code.eventsList56 = function(runtimeScene) {
 
 {
 
@@ -2747,14 +3107,7 @@ gdjs.goniometro_95simulador9Code.eventsList2(runtimeScene);
 {
 
 
-gdjs.goniometro_95simulador9Code.eventsList6(runtimeScene);
-}
-
-
-{
-
-
-gdjs.goniometro_95simulador9Code.eventsList52(runtimeScene);
+gdjs.goniometro_95simulador9Code.eventsList55(runtimeScene);
 }
 
 
@@ -2762,126 +3115,7 @@ gdjs.goniometro_95simulador9Code.eventsList52(runtimeScene);
 
 
 {
-gdjs.copyArray(runtimeScene.getObjects("a1"), gdjs.goniometro_95simulador9Code.GDa1Objects1);
-gdjs.copyArray(runtimeScene.getObjects("txtTestDesk"), gdjs.goniometro_95simulador9Code.GDtxtTestDeskObjects1);
-{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtTestDeskObjects1.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDtxtTestDeskObjects1[i].setString((( gdjs.goniometro_95simulador9Code.GDa1Objects1.length === 0 ) ? "" :gdjs.goniometro_95simulador9Code.GDa1Objects1[0].getString()));
 }
-}}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("btConf"), gdjs.goniometro_95simulador9Code.GDbtConfObjects1);
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtConfObjects1Objects, runtimeScene, true, false);
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("a2"), gdjs.goniometro_95simulador9Code.GDa2Objects1);
-gdjs.copyArray(runtimeScene.getObjects("txtTestMobile"), gdjs.goniometro_95simulador9Code.GDtxtTestMobileObjects1);
-{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDa2Objects1.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDa2Objects1[i].getBehavior("TextEntryVirtualKeyboard").openKeyboard((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}
-}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDa2Objects1.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDa2Objects1[i].getBehavior("TextEntryVirtualKeyboard").setTypeKeyboard("number", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}
-}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtTestMobileObjects1.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDtxtTestMobileObjects1[i].setString((( gdjs.goniometro_95simulador9Code.GDa2Objects1.length === 0 ) ? "" :gdjs.goniometro_95simulador9Code.GDa2Objects1[0].getString()));
-}
-}}
-
-}
-
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("a2"), gdjs.goniometro_95simulador9Code.GDa2Objects1);
-gdjs.copyArray(runtimeScene.getObjects("txtTestMobile"), gdjs.goniometro_95simulador9Code.GDtxtTestMobileObjects1);
-{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDa2Objects1.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDa2Objects1[i].getBehavior("TextEntryVirtualKeyboard").openKeyboard((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}
-}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDa2Objects1.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDa2Objects1[i].getBehavior("TextEntryVirtualKeyboard").setTypeKeyboard("number", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}
-}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtTestMobileObjects1.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDtxtTestMobileObjects1[i].setString((( gdjs.goniometro_95simulador9Code.GDa2Objects1.length === 0 ) ? "" :gdjs.goniometro_95simulador9Code.GDa2Objects1[0].getString()));
-}
-}}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("txtB1"), gdjs.goniometro_95simulador9Code.GDtxtB1Objects1);
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDtxtB1Objects1Objects, runtimeScene, true, false);
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("a2"), gdjs.goniometro_95simulador9Code.GDa2Objects1);
-gdjs.copyArray(runtimeScene.getObjects("txtTestMobile"), gdjs.goniometro_95simulador9Code.GDtxtTestMobileObjects1);
-{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDa2Objects1.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDa2Objects1[i].getBehavior("TextEntryVirtualKeyboard").openKeyboard((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}
-}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDa2Objects1.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDa2Objects1[i].getBehavior("TextEntryVirtualKeyboard").setTypeKeyboard("number", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}
-}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtTestMobileObjects1.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDtxtTestMobileObjects1[i].setString((( gdjs.goniometro_95simulador9Code.GDa2Objects1.length === 0 ) ? "" :gdjs.goniometro_95simulador9Code.GDa2Objects1[0].getString()));
-}
-}}
-
-}
-
-
-{
-
-
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
-{
-gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.popEndedTouch(runtimeScene);
-}if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("a2"), gdjs.goniometro_95simulador9Code.GDa2Objects1);
-gdjs.copyArray(runtimeScene.getObjects("txtTestMobile"), gdjs.goniometro_95simulador9Code.GDtxtTestMobileObjects1);
-{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDa2Objects1.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDa2Objects1[i].getBehavior("TextEntryVirtualKeyboard").openKeyboard((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}
-}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDa2Objects1.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDa2Objects1[i].getBehavior("TextEntryVirtualKeyboard").setTypeKeyboard("number", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}
-}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtTestMobileObjects1.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDtxtTestMobileObjects1[i].setString((( gdjs.goniometro_95simulador9Code.GDa2Objects1.length === 0 ) ? "" :gdjs.goniometro_95simulador9Code.GDa2Objects1[0].getString()));
-}
-}}
-
-}
-
-
-{
-
-
-{
-gdjs.copyArray(runtimeScene.getObjects("a2"), gdjs.goniometro_95simulador9Code.GDa2Objects1);
-gdjs.copyArray(runtimeScene.getObjects("txtTestMobile"), gdjs.goniometro_95simulador9Code.GDtxtTestMobileObjects1);
-{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDa2Objects1.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDa2Objects1[i].getBehavior("TextEntryVirtualKeyboard").openKeyboard((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}
-}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDa2Objects1.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDa2Objects1[i].getBehavior("TextEntryVirtualKeyboard").setTypeKeyboard("number", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}
-}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtTestMobileObjects1.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDtxtTestMobileObjects1[i].setString((( gdjs.goniometro_95simulador9Code.GDa2Objects1.length === 0 ) ? "" :gdjs.goniometro_95simulador9Code.GDa2Objects1[0].getString()));
-}
-}}
 
 }
 
@@ -2932,6 +3166,10 @@ gdjs.goniometro_95simulador9Code.GDaguardeTrocaTxtObjects1.length = 0;
 gdjs.goniometro_95simulador9Code.GDaguardeTrocaTxtObjects2.length = 0;
 gdjs.goniometro_95simulador9Code.GDaguardeTrocaTxtObjects3.length = 0;
 gdjs.goniometro_95simulador9Code.GDaguardeTrocaTxtObjects4.length = 0;
+gdjs.goniometro_95simulador9Code.GDtxt02Objects1.length = 0;
+gdjs.goniometro_95simulador9Code.GDtxt02Objects2.length = 0;
+gdjs.goniometro_95simulador9Code.GDtxt02Objects3.length = 0;
+gdjs.goniometro_95simulador9Code.GDtxt02Objects4.length = 0;
 gdjs.goniometro_95simulador9Code.GDtxt01Objects1.length = 0;
 gdjs.goniometro_95simulador9Code.GDtxt01Objects2.length = 0;
 gdjs.goniometro_95simulador9Code.GDtxt01Objects3.length = 0;
@@ -2940,10 +3178,6 @@ gdjs.goniometro_95simulador9Code.GDpainel01g1Objects1.length = 0;
 gdjs.goniometro_95simulador9Code.GDpainel01g1Objects2.length = 0;
 gdjs.goniometro_95simulador9Code.GDpainel01g1Objects3.length = 0;
 gdjs.goniometro_95simulador9Code.GDpainel01g1Objects4.length = 0;
-gdjs.goniometro_95simulador9Code.GDtxtPainel01g1Objects1.length = 0;
-gdjs.goniometro_95simulador9Code.GDtxtPainel01g1Objects2.length = 0;
-gdjs.goniometro_95simulador9Code.GDtxtPainel01g1Objects3.length = 0;
-gdjs.goniometro_95simulador9Code.GDtxtPainel01g1Objects4.length = 0;
 gdjs.goniometro_95simulador9Code.GDpeca01Objects1.length = 0;
 gdjs.goniometro_95simulador9Code.GDpeca01Objects2.length = 0;
 gdjs.goniometro_95simulador9Code.GDpeca01Objects3.length = 0;
@@ -3036,24 +3270,16 @@ gdjs.goniometro_95simulador9Code.GDbtConfObjects1.length = 0;
 gdjs.goniometro_95simulador9Code.GDbtConfObjects2.length = 0;
 gdjs.goniometro_95simulador9Code.GDbtConfObjects3.length = 0;
 gdjs.goniometro_95simulador9Code.GDbtConfObjects4.length = 0;
-gdjs.goniometro_95simulador9Code.GDa2Objects1.length = 0;
-gdjs.goniometro_95simulador9Code.GDa2Objects2.length = 0;
-gdjs.goniometro_95simulador9Code.GDa2Objects3.length = 0;
-gdjs.goniometro_95simulador9Code.GDa2Objects4.length = 0;
-gdjs.goniometro_95simulador9Code.GDa1Objects1.length = 0;
-gdjs.goniometro_95simulador9Code.GDa1Objects2.length = 0;
-gdjs.goniometro_95simulador9Code.GDa1Objects3.length = 0;
-gdjs.goniometro_95simulador9Code.GDa1Objects4.length = 0;
-gdjs.goniometro_95simulador9Code.GDtxtTestDeskObjects1.length = 0;
-gdjs.goniometro_95simulador9Code.GDtxtTestDeskObjects2.length = 0;
-gdjs.goniometro_95simulador9Code.GDtxtTestDeskObjects3.length = 0;
-gdjs.goniometro_95simulador9Code.GDtxtTestDeskObjects4.length = 0;
-gdjs.goniometro_95simulador9Code.GDtxtTestMobileObjects1.length = 0;
-gdjs.goniometro_95simulador9Code.GDtxtTestMobileObjects2.length = 0;
-gdjs.goniometro_95simulador9Code.GDtxtTestMobileObjects3.length = 0;
-gdjs.goniometro_95simulador9Code.GDtxtTestMobileObjects4.length = 0;
+gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects1.length = 0;
+gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects2.length = 0;
+gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects3.length = 0;
+gdjs.goniometro_95simulador9Code.GDtxtEntryA1Objects4.length = 0;
+gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects1.length = 0;
+gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects2.length = 0;
+gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects3.length = 0;
+gdjs.goniometro_95simulador9Code.GDtxtEntryB1Objects4.length = 0;
 
-gdjs.goniometro_95simulador9Code.eventsList53(runtimeScene);
+gdjs.goniometro_95simulador9Code.eventsList56(runtimeScene);
 return;
 
 }
