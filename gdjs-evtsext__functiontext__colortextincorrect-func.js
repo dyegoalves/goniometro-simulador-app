@@ -26,10 +26,10 @@ gdjs.copyArray(eventsFunctionContext.getObjects("txtA1vl"), gdjs.evtsExt__functi
 gdjs.copyArray(eventsFunctionContext.getObjects("txtB1"), gdjs.evtsExt__functionText__colorTextIncorrect.GDtxtB1Objects1);
 gdjs.copyArray(eventsFunctionContext.getObjects("txtB1vl"), gdjs.evtsExt__functionText__colorTextIncorrect.GDtxtB1vlObjects1);
 {for(var i = 0, len = gdjs.evtsExt__functionText__colorTextIncorrect.GDRespostasObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__functionText__colorTextIncorrect.GDRespostasObjects1[i].setColor("230;11;11");
+    gdjs.evtsExt__functionText__colorTextIncorrect.GDRespostasObjects1[i].hide(false);
 }
 }{for(var i = 0, len = gdjs.evtsExt__functionText__colorTextIncorrect.GDRespostasObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__functionText__colorTextIncorrect.GDRespostasObjects1[i].setOpacity(gdjs.evtsExt__functionText__colorTextIncorrect.GDRespostasObjects1[i].getOpacity() + (250 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene)));
+    gdjs.evtsExt__functionText__colorTextIncorrect.GDRespostasObjects1[i].setColor("230;11;11");
 }
 }{for(var i = 0, len = gdjs.evtsExt__functionText__colorTextIncorrect.GDRespostasObjects1.length ;i < len;++i) {
     gdjs.evtsExt__functionText__colorTextIncorrect.GDRespostasObjects1[i].setString("Resposta incorreta!\nA correta seria A¹= 64º e B¹= 30'");

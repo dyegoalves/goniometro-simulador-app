@@ -198,6 +198,7 @@ gdjs.copyArray(runtimeScene.getObjects("txtA1vl"), gdjs.goniometro_95simulador9C
 gdjs.copyArray(runtimeScene.getObjects("txtB1"), gdjs.goniometro_95simulador9Code.GDtxtB1Objects2);
 gdjs.copyArray(runtimeScene.getObjects("txtLeituraCompleta"), gdjs.goniometro_95simulador9Code.GDtxtLeituraCompletaObjects2);
 gdjs.copyArray(runtimeScene.getObjects("txtTituloGONIOMETRO"), gdjs.goniometro_95simulador9Code.GDtxtTituloGONIOMETROObjects2);
+gdjs.copyArray(runtimeScene.getObjects("txtTituloPainelLeitura"), gdjs.goniometro_95simulador9Code.GDtxtTituloPainelLeituraObjects2);
 {for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtecladoObjects2.length ;i < len;++i) {
     gdjs.goniometro_95simulador9Code.GDtecladoObjects2[i].hide();
 }
@@ -280,7 +281,10 @@ for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects2.length ;
     gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects2[i].setOpacity(0);
 }
 }{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDRespostasObjects2.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDRespostasObjects2[i].setOpacity(0);
+    gdjs.goniometro_95simulador9Code.GDRespostasObjects2[i].hide();
+}
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtTituloPainelLeituraObjects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtTituloPainelLeituraObjects2[i].setOpacity(0);
 }
 }}
 
@@ -375,6 +379,7 @@ gdjs.copyArray(runtimeScene.getObjects("txtA1"), gdjs.goniometro_95simulador9Cod
 gdjs.copyArray(runtimeScene.getObjects("txtA1vl"), gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects2);
 gdjs.copyArray(runtimeScene.getObjects("txtB1"), gdjs.goniometro_95simulador9Code.GDtxtB1Objects2);
 gdjs.copyArray(runtimeScene.getObjects("txtLeituraCompleta"), gdjs.goniometro_95simulador9Code.GDtxtLeituraCompletaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("txtTituloPainelLeitura"), gdjs.goniometro_95simulador9Code.GDtxtTituloPainelLeituraObjects2);
 {for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDpainel01g1Objects2.length ;i < len;++i) {
     gdjs.goniometro_95simulador9Code.GDpainel01g1Objects2[i].setWidth(700);
 }
@@ -398,6 +403,9 @@ for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtB1Objects2.length ;i 
 }
 for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects2.length ;i < len;++i) {
     gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects2[i].setOpacity(gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects2[i].getOpacity() + (150 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene)));
+}
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDtxtTituloPainelLeituraObjects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDtxtTituloPainelLeituraObjects2[i].setOpacity(gdjs.goniometro_95simulador9Code.GDtxtTituloPainelLeituraObjects2[i].getOpacity() + (150 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene)));
 }
 }}
 
@@ -859,6 +867,7 @@ gdjs.copyArray(runtimeScene.getObjects("txtB1vl"), gdjs.goniometro_95simulador9C
 
 gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
 gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = false;
+gdjs.goniometro_95simulador9Code.condition2IsTrue_0.val = false;
 {
 for(var i = 0, k = 0, l = gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3.length;i<l;++i) {
     if ( gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].getString() == (gdjs.RuntimeObject.getVariableString(((gdjs.goniometro_95simulador9Code.GDbtConfObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.goniometro_95simulador9Code.GDbtConfObjects3[0].getVariables()).get("respA1"))) ) {
@@ -876,8 +885,18 @@ for(var i = 0, k = 0, l = gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects3.len
         ++k;
     }
 }
-gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects3.length = k;}}
-if (gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val) {
+gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects3.length = k;}if ( gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val ) {
+{
+for(var i = 0, k = 0, l = gdjs.goniometro_95simulador9Code.GDbtConfObjects3.length;i<l;++i) {
+    if ( gdjs.goniometro_95simulador9Code.GDbtConfObjects3[i].getOpacity() >= 150 ) {
+        gdjs.goniometro_95simulador9Code.condition2IsTrue_0.val = true;
+        gdjs.goniometro_95simulador9Code.GDbtConfObjects3[k] = gdjs.goniometro_95simulador9Code.GDbtConfObjects3[i];
+        ++k;
+    }
+}
+gdjs.goniometro_95simulador9Code.GDbtConfObjects3.length = k;}}
+}
+if (gdjs.goniometro_95simulador9Code.condition2IsTrue_0.val) {
 gdjs.copyArray(gdjs.goniometro_95simulador9Code.GDRespostasObjects2, gdjs.goniometro_95simulador9Code.GDRespostasObjects3);
 
 gdjs.copyArray(runtimeScene.getObjects("txtA1"), gdjs.goniometro_95simulador9Code.GDtxtA1Objects3);
@@ -885,6 +904,9 @@ gdjs.copyArray(runtimeScene.getObjects("txtA1"), gdjs.goniometro_95simulador9Cod
 gdjs.copyArray(runtimeScene.getObjects("txtB1"), gdjs.goniometro_95simulador9Code.GDtxtB1Objects3);
 /* Reuse gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects3 */
 {gdjs.evtsExt__functionText__colorTextCorrect.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDRespostasObjects3Objects, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDtxtA1Objects3Objects, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDtxtB1Objects3Objects, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDtxtA1vlObjects3Objects, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDtxtB1vlObjects3Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDRespostasObjects3.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDRespostasObjects3[i].setCharacterSize(26);
+}
 }}
 
 }
@@ -899,6 +921,7 @@ gdjs.copyArray(runtimeScene.getObjects("txtB1vl"), gdjs.goniometro_95simulador9C
 
 gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
 gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = false;
+gdjs.goniometro_95simulador9Code.condition2IsTrue_0.val = false;
 {
 for(var i = 0, k = 0, l = gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3.length;i<l;++i) {
     if ( gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].getString() == (gdjs.RuntimeObject.getVariableString(((gdjs.goniometro_95simulador9Code.GDbtConfObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.goniometro_95simulador9Code.GDbtConfObjects3[0].getVariables()).get("respA1"))) ) {
@@ -916,8 +939,18 @@ for(var i = 0, k = 0, l = gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects3.len
         ++k;
     }
 }
-gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects3.length = k;}}
-if (gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val) {
+gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects3.length = k;}if ( gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val ) {
+{
+for(var i = 0, k = 0, l = gdjs.goniometro_95simulador9Code.GDbtConfObjects3.length;i<l;++i) {
+    if ( gdjs.goniometro_95simulador9Code.GDbtConfObjects3[i].getOpacity() >= 150 ) {
+        gdjs.goniometro_95simulador9Code.condition2IsTrue_0.val = true;
+        gdjs.goniometro_95simulador9Code.GDbtConfObjects3[k] = gdjs.goniometro_95simulador9Code.GDbtConfObjects3[i];
+        ++k;
+    }
+}
+gdjs.goniometro_95simulador9Code.GDbtConfObjects3.length = k;}}
+}
+if (gdjs.goniometro_95simulador9Code.condition2IsTrue_0.val) {
 gdjs.copyArray(gdjs.goniometro_95simulador9Code.GDRespostasObjects2, gdjs.goniometro_95simulador9Code.GDRespostasObjects3);
 
 gdjs.copyArray(runtimeScene.getObjects("txtA1"), gdjs.goniometro_95simulador9Code.GDtxtA1Objects3);
@@ -925,6 +958,9 @@ gdjs.copyArray(runtimeScene.getObjects("txtA1"), gdjs.goniometro_95simulador9Cod
 gdjs.copyArray(runtimeScene.getObjects("txtB1"), gdjs.goniometro_95simulador9Code.GDtxtB1Objects3);
 /* Reuse gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects3 */
 {gdjs.evtsExt__functionText__colorTextIncorrect.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDRespostasObjects3Objects, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDtxtA1Objects3Objects, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDtxtB1Objects3Objects, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDtxtA1vlObjects3Objects, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDtxtB1vlObjects3Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDRespostasObjects3.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDRespostasObjects3[i].setCharacterSize(26);
+}
 }}
 
 }
@@ -939,6 +975,7 @@ gdjs.copyArray(runtimeScene.getObjects("txtB1vl"), gdjs.goniometro_95simulador9C
 
 gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
 gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = false;
+gdjs.goniometro_95simulador9Code.condition2IsTrue_0.val = false;
 {
 for(var i = 0, k = 0, l = gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3.length;i<l;++i) {
     if ( !(gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].getString() == (gdjs.RuntimeObject.getVariableString(((gdjs.goniometro_95simulador9Code.GDbtConfObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.goniometro_95simulador9Code.GDbtConfObjects3[0].getVariables()).get("respA1")))) ) {
@@ -956,8 +993,18 @@ for(var i = 0, k = 0, l = gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects3.len
         ++k;
     }
 }
-gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects3.length = k;}}
-if (gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val) {
+gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects3.length = k;}if ( gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val ) {
+{
+for(var i = 0, k = 0, l = gdjs.goniometro_95simulador9Code.GDbtConfObjects3.length;i<l;++i) {
+    if ( gdjs.goniometro_95simulador9Code.GDbtConfObjects3[i].getOpacity() >= 150 ) {
+        gdjs.goniometro_95simulador9Code.condition2IsTrue_0.val = true;
+        gdjs.goniometro_95simulador9Code.GDbtConfObjects3[k] = gdjs.goniometro_95simulador9Code.GDbtConfObjects3[i];
+        ++k;
+    }
+}
+gdjs.goniometro_95simulador9Code.GDbtConfObjects3.length = k;}}
+}
+if (gdjs.goniometro_95simulador9Code.condition2IsTrue_0.val) {
 gdjs.copyArray(gdjs.goniometro_95simulador9Code.GDRespostasObjects2, gdjs.goniometro_95simulador9Code.GDRespostasObjects3);
 
 gdjs.copyArray(runtimeScene.getObjects("txtA1"), gdjs.goniometro_95simulador9Code.GDtxtA1Objects3);
@@ -965,6 +1012,9 @@ gdjs.copyArray(runtimeScene.getObjects("txtA1"), gdjs.goniometro_95simulador9Cod
 gdjs.copyArray(runtimeScene.getObjects("txtB1"), gdjs.goniometro_95simulador9Code.GDtxtB1Objects3);
 /* Reuse gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects3 */
 {gdjs.evtsExt__functionText__colorTextIncorrect.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDRespostasObjects3Objects, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDtxtA1Objects3Objects, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDtxtB1Objects3Objects, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDtxtA1vlObjects3Objects, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDtxtB1vlObjects3Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDRespostasObjects3.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDRespostasObjects3[i].setCharacterSize(26);
+}
 }}
 
 }
@@ -979,6 +1029,7 @@ gdjs.copyArray(runtimeScene.getObjects("txtB1vl"), gdjs.goniometro_95simulador9C
 
 gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
 gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val = false;
+gdjs.goniometro_95simulador9Code.condition2IsTrue_0.val = false;
 {
 for(var i = 0, k = 0, l = gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3.length;i<l;++i) {
     if ( !(gdjs.goniometro_95simulador9Code.GDtxtA1vlObjects3[i].getString() == (gdjs.RuntimeObject.getVariableString(((gdjs.goniometro_95simulador9Code.GDbtConfObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.goniometro_95simulador9Code.GDbtConfObjects3[0].getVariables()).get("respA1")))) ) {
@@ -996,8 +1047,18 @@ for(var i = 0, k = 0, l = gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects3.len
         ++k;
     }
 }
-gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects3.length = k;}}
-if (gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val) {
+gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects3.length = k;}if ( gdjs.goniometro_95simulador9Code.condition1IsTrue_0.val ) {
+{
+for(var i = 0, k = 0, l = gdjs.goniometro_95simulador9Code.GDbtConfObjects3.length;i<l;++i) {
+    if ( gdjs.goniometro_95simulador9Code.GDbtConfObjects3[i].getOpacity() >= 150 ) {
+        gdjs.goniometro_95simulador9Code.condition2IsTrue_0.val = true;
+        gdjs.goniometro_95simulador9Code.GDbtConfObjects3[k] = gdjs.goniometro_95simulador9Code.GDbtConfObjects3[i];
+        ++k;
+    }
+}
+gdjs.goniometro_95simulador9Code.GDbtConfObjects3.length = k;}}
+}
+if (gdjs.goniometro_95simulador9Code.condition2IsTrue_0.val) {
 gdjs.copyArray(gdjs.goniometro_95simulador9Code.GDRespostasObjects2, gdjs.goniometro_95simulador9Code.GDRespostasObjects3);
 
 gdjs.copyArray(runtimeScene.getObjects("txtA1"), gdjs.goniometro_95simulador9Code.GDtxtA1Objects3);
@@ -1005,6 +1066,9 @@ gdjs.copyArray(runtimeScene.getObjects("txtA1"), gdjs.goniometro_95simulador9Cod
 gdjs.copyArray(runtimeScene.getObjects("txtB1"), gdjs.goniometro_95simulador9Code.GDtxtB1Objects3);
 /* Reuse gdjs.goniometro_95simulador9Code.GDtxtB1vlObjects3 */
 {gdjs.evtsExt__functionText__colorTextIncorrect.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDRespostasObjects3Objects, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDtxtA1Objects3Objects, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDtxtB1Objects3Objects, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDtxtA1vlObjects3Objects, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDtxtB1vlObjects3Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDRespostasObjects3.length ;i < len;++i) {
+    gdjs.goniometro_95simulador9Code.GDRespostasObjects3[i].setCharacterSize(26);
+}
 }}
 
 }
@@ -1028,14 +1092,10 @@ gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = false;
 {
 gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }if (gdjs.goniometro_95simulador9Code.condition0IsTrue_0.val) {
-/* Reuse gdjs.goniometro_95simulador9Code.GDRespostasObjects2 */
 /* Reuse gdjs.goniometro_95simulador9Code.GDbtConfObjects2 */
 {gdjs.evtsExt__functionTeclado__sizeButtonsConf.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtConfObjects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDbtConfObjects2.length ;i < len;++i) {
     gdjs.goniometro_95simulador9Code.GDbtConfObjects2[i].returnVariable(gdjs.goniometro_95simulador9Code.GDbtConfObjects2[i].getVariables().get("cbtconf")).setNumber(0);
-}
-}{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDRespostasObjects2.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDRespostasObjects2[i].hide();
 }
 }
 { //Subevents
@@ -2527,7 +2587,7 @@ gdjs.copyArray(runtimeScene.getObjects("Respostas"), gdjs.goniometro_95simulador
 /* Reuse gdjs.goniometro_95simulador9Code.GDbtConfObjects2 */
 {gdjs.evtsExt__functionTeclado__defautButtonsConf.func(runtimeScene, gdjs.goniometro_95simulador9Code.mapOfGDgdjs_46goniometro_9595simulador9Code_46GDbtConfObjects2Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }{for(var i = 0, len = gdjs.goniometro_95simulador9Code.GDRespostasObjects2.length ;i < len;++i) {
-    gdjs.goniometro_95simulador9Code.GDRespostasObjects2[i].hide(false);
+    gdjs.goniometro_95simulador9Code.GDRespostasObjects2[i].setCharacterSize(25);
 }
 }
 { //Subevents

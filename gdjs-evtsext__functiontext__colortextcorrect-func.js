@@ -26,10 +26,10 @@ gdjs.copyArray(eventsFunctionContext.getObjects("txtA1vl"), gdjs.evtsExt__functi
 gdjs.copyArray(eventsFunctionContext.getObjects("txtB1"), gdjs.evtsExt__functionText__colorTextCorrect.GDtxtB1Objects1);
 gdjs.copyArray(eventsFunctionContext.getObjects("txtB1vl"), gdjs.evtsExt__functionText__colorTextCorrect.GDtxtB1vlObjects1);
 {for(var i = 0, len = gdjs.evtsExt__functionText__colorTextCorrect.GDRespostasObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__functionText__colorTextCorrect.GDRespostasObjects1[i].setColor("126;211;33");
+    gdjs.evtsExt__functionText__colorTextCorrect.GDRespostasObjects1[i].hide(false);
 }
 }{for(var i = 0, len = gdjs.evtsExt__functionText__colorTextCorrect.GDRespostasObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__functionText__colorTextCorrect.GDRespostasObjects1[i].setOpacity(gdjs.evtsExt__functionText__colorTextCorrect.GDRespostasObjects1[i].getOpacity() + (250 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene)));
+    gdjs.evtsExt__functionText__colorTextCorrect.GDRespostasObjects1[i].setColor("126;211;33");
 }
 }{for(var i = 0, len = gdjs.evtsExt__functionText__colorTextCorrect.GDRespostasObjects1.length ;i < len;++i) {
     gdjs.evtsExt__functionText__colorTextCorrect.GDRespostasObjects1[i].setString("A Resposta está correta");
