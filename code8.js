@@ -3437,6 +3437,15 @@ gdjs.goniometro_95simulador9Code.eventsList56(runtimeScene);
 }
 
 
+{
+
+
+{
+}
+
+}
+
+
 };
 
 gdjs.goniometro_95simulador9Code.func = function(runtimeScene) {
