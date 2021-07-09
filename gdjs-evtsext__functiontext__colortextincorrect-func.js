@@ -135,7 +135,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("txtB1vl"), gdjs.evtsExt__functi
     gdjs.evtsExt__functionText__colorTextIncorrect.GDRespostasObjects1[i].setColor("230;11;11");
 }
 }{for(var i = 0, len = gdjs.evtsExt__functionText__colorTextIncorrect.GDRespostasObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__functionText__colorTextIncorrect.GDRespostasObjects1[i].setString("Resposta incorreta!\nA correta seria A³= 41º e B³= 50'");
+    gdjs.evtsExt__functionText__colorTextIncorrect.GDRespostasObjects1[i].setString("Resposta incorreta!\nA correta seria A³= 9º e B³= 15'");
 }
 }{for(var i = 0, len = gdjs.evtsExt__functionText__colorTextIncorrect.GDtxtA1Objects1.length ;i < len;++i) {
     gdjs.evtsExt__functionText__colorTextIncorrect.GDtxtA1Objects1[i].setColor("74;74;74");
