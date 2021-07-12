@@ -1,4 +1,7 @@
 gdjs.goniometro_95simulador4Code = {};
+gdjs.goniometro_95simulador4Code.GDH01PObjects1= [];
+gdjs.goniometro_95simulador4Code.GDH01PObjects2= [];
+gdjs.goniometro_95simulador4Code.GDH01PObjects3= [];
 gdjs.goniometro_95simulador4Code.GDmolduraObjects1= [];
 gdjs.goniometro_95simulador4Code.GDmolduraObjects2= [];
 gdjs.goniometro_95simulador4Code.GDmolduraObjects3= [];
@@ -153,7 +156,58 @@ gdjs.goniometro_95simulador4Code.eventsList0(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.goniometro_95simulador4Code.mapOfGDgdjs_46goniometro_9595simulador4Code_46GDbtAvancarObjects2Objects = Hashtable.newFrom({"btAvancar": gdjs.goniometro_95simulador4Code.GDbtAvancarObjects2});gdjs.goniometro_95simulador4Code.mapOfGDgdjs_46goniometro_9595simulador4Code_46GDbtVoltarObjects1Objects = Hashtable.newFrom({"btVoltar": gdjs.goniometro_95simulador4Code.GDbtVoltarObjects1});gdjs.goniometro_95simulador4Code.eventsList2 = function(runtimeScene) {
+};gdjs.goniometro_95simulador4Code.mapOfGDgdjs_46goniometro_9595simulador4Code_46GDH01PObjects1Objects = Hashtable.newFrom({"H01P": gdjs.goniometro_95simulador4Code.GDH01PObjects1});gdjs.goniometro_95simulador4Code.eventsList2 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador4Code.condition0IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador4Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}if (gdjs.goniometro_95simulador4Code.condition0IsTrue_0.val) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "menu_consulta", false);
+}{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(4);
+}}
+
+}
+
+
+};gdjs.goniometro_95simulador4Code.eventsList3 = function(runtimeScene) {
+
+{
+
+
+{
+gdjs.copyArray(runtimeScene.getObjects("H01P"), gdjs.goniometro_95simulador4Code.GDH01PObjects2);
+{for(var i = 0, len = gdjs.goniometro_95simulador4Code.GDH01PObjects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador4Code.GDH01PObjects2[i].setAnimation(0);
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("H01P"), gdjs.goniometro_95simulador4Code.GDH01PObjects1);
+
+gdjs.goniometro_95simulador4Code.condition0IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador4Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.goniometro_95simulador4Code.mapOfGDgdjs_46goniometro_9595simulador4Code_46GDH01PObjects1Objects, runtimeScene, true, false);
+}if (gdjs.goniometro_95simulador4Code.condition0IsTrue_0.val) {
+/* Reuse gdjs.goniometro_95simulador4Code.GDH01PObjects1 */
+{for(var i = 0, len = gdjs.goniometro_95simulador4Code.GDH01PObjects1.length ;i < len;++i) {
+    gdjs.goniometro_95simulador4Code.GDH01PObjects1[i].setAnimation(1);
+}
+}
+{ //Subevents
+gdjs.goniometro_95simulador4Code.eventsList2(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.goniometro_95simulador4Code.mapOfGDgdjs_46goniometro_9595simulador4Code_46GDbtAvancarObjects2Objects = Hashtable.newFrom({"btAvancar": gdjs.goniometro_95simulador4Code.GDbtAvancarObjects2});gdjs.goniometro_95simulador4Code.mapOfGDgdjs_46goniometro_9595simulador4Code_46GDbtVoltarObjects1Objects = Hashtable.newFrom({"btVoltar": gdjs.goniometro_95simulador4Code.GDbtVoltarObjects1});gdjs.goniometro_95simulador4Code.eventsList4 = function(runtimeScene) {
 
 {
 
@@ -381,7 +435,7 @@ gdjs.copyArray(runtimeScene.getObjects("goniometroP"), gdjs.goniometro_95simulad
 gdjs.goniometro_95simulador4Code.condition0IsTrue_0.val = false;
 {
 for(var i = 0, k = 0, l = gdjs.goniometro_95simulador4Code.GDgoniometroPObjects2.length;i<l;++i) {
-    if ( gdjs.goniometro_95simulador4Code.GDgoniometroPObjects2[i].getAnimationFrame() == 70 ) {
+    if ( gdjs.goniometro_95simulador4Code.GDgoniometroPObjects2[i].getAnimationFrame() == 50 ) {
         gdjs.goniometro_95simulador4Code.condition0IsTrue_0.val = true;
         gdjs.goniometro_95simulador4Code.GDgoniometroPObjects2[k] = gdjs.goniometro_95simulador4Code.GDgoniometroPObjects2[i];
         ++k;
@@ -447,7 +501,7 @@ if (gdjs.goniometro_95simulador4Code.condition2IsTrue_0.val) {
 }
 
 
-};gdjs.goniometro_95simulador4Code.eventsList3 = function(runtimeScene) {
+};gdjs.goniometro_95simulador4Code.eventsList5 = function(runtimeScene) {
 
 {
 
@@ -459,7 +513,14 @@ gdjs.goniometro_95simulador4Code.eventsList1(runtimeScene);
 {
 
 
-gdjs.goniometro_95simulador4Code.eventsList2(runtimeScene);
+gdjs.goniometro_95simulador4Code.eventsList3(runtimeScene);
+}
+
+
+{
+
+
+gdjs.goniometro_95simulador4Code.eventsList4(runtimeScene);
 }
 
 
@@ -468,6 +529,9 @@ gdjs.goniometro_95simulador4Code.eventsList2(runtimeScene);
 gdjs.goniometro_95simulador4Code.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
+gdjs.goniometro_95simulador4Code.GDH01PObjects1.length = 0;
+gdjs.goniometro_95simulador4Code.GDH01PObjects2.length = 0;
+gdjs.goniometro_95simulador4Code.GDH01PObjects3.length = 0;
 gdjs.goniometro_95simulador4Code.GDmolduraObjects1.length = 0;
 gdjs.goniometro_95simulador4Code.GDmolduraObjects2.length = 0;
 gdjs.goniometro_95simulador4Code.GDmolduraObjects3.length = 0;
@@ -523,7 +587,7 @@ gdjs.goniometro_95simulador4Code.GDp2txtObjects1.length = 0;
 gdjs.goniometro_95simulador4Code.GDp2txtObjects2.length = 0;
 gdjs.goniometro_95simulador4Code.GDp2txtObjects3.length = 0;
 
-gdjs.goniometro_95simulador4Code.eventsList3(runtimeScene);
+gdjs.goniometro_95simulador4Code.eventsList5(runtimeScene);
 return;
 
 }

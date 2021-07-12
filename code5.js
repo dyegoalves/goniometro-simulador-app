@@ -1,4 +1,7 @@
 gdjs.goniometro_95simulador6Code = {};
+gdjs.goniometro_95simulador6Code.GDH01PObjects1= [];
+gdjs.goniometro_95simulador6Code.GDH01PObjects2= [];
+gdjs.goniometro_95simulador6Code.GDH01PObjects3= [];
 gdjs.goniometro_95simulador6Code.GDmolduraObjects1= [];
 gdjs.goniometro_95simulador6Code.GDmolduraObjects2= [];
 gdjs.goniometro_95simulador6Code.GDmolduraObjects3= [];
@@ -162,7 +165,58 @@ gdjs.goniometro_95simulador6Code.eventsList0(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.goniometro_95simulador6Code.mapOfGDgdjs_46goniometro_9595simulador6Code_46GDbtAvancarObjects2Objects = Hashtable.newFrom({"btAvancar": gdjs.goniometro_95simulador6Code.GDbtAvancarObjects2});gdjs.goniometro_95simulador6Code.mapOfGDgdjs_46goniometro_9595simulador6Code_46GDbtVoltarObjects1Objects = Hashtable.newFrom({"btVoltar": gdjs.goniometro_95simulador6Code.GDbtVoltarObjects1});gdjs.goniometro_95simulador6Code.eventsList2 = function(runtimeScene) {
+};gdjs.goniometro_95simulador6Code.mapOfGDgdjs_46goniometro_9595simulador6Code_46GDH01PObjects1Objects = Hashtable.newFrom({"H01P": gdjs.goniometro_95simulador6Code.GDH01PObjects1});gdjs.goniometro_95simulador6Code.eventsList2 = function(runtimeScene) {
+
+{
+
+
+gdjs.goniometro_95simulador6Code.condition0IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador6Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}if (gdjs.goniometro_95simulador6Code.condition0IsTrue_0.val) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "menu_consulta", false);
+}{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(6);
+}}
+
+}
+
+
+};gdjs.goniometro_95simulador6Code.eventsList3 = function(runtimeScene) {
+
+{
+
+
+{
+gdjs.copyArray(runtimeScene.getObjects("H01P"), gdjs.goniometro_95simulador6Code.GDH01PObjects2);
+{for(var i = 0, len = gdjs.goniometro_95simulador6Code.GDH01PObjects2.length ;i < len;++i) {
+    gdjs.goniometro_95simulador6Code.GDH01PObjects2[i].setAnimation(0);
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("H01P"), gdjs.goniometro_95simulador6Code.GDH01PObjects1);
+
+gdjs.goniometro_95simulador6Code.condition0IsTrue_0.val = false;
+{
+gdjs.goniometro_95simulador6Code.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.goniometro_95simulador6Code.mapOfGDgdjs_46goniometro_9595simulador6Code_46GDH01PObjects1Objects, runtimeScene, true, false);
+}if (gdjs.goniometro_95simulador6Code.condition0IsTrue_0.val) {
+/* Reuse gdjs.goniometro_95simulador6Code.GDH01PObjects1 */
+{for(var i = 0, len = gdjs.goniometro_95simulador6Code.GDH01PObjects1.length ;i < len;++i) {
+    gdjs.goniometro_95simulador6Code.GDH01PObjects1[i].setAnimation(1);
+}
+}
+{ //Subevents
+gdjs.goniometro_95simulador6Code.eventsList2(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.goniometro_95simulador6Code.mapOfGDgdjs_46goniometro_9595simulador6Code_46GDbtAvancarObjects2Objects = Hashtable.newFrom({"btAvancar": gdjs.goniometro_95simulador6Code.GDbtAvancarObjects2});gdjs.goniometro_95simulador6Code.mapOfGDgdjs_46goniometro_9595simulador6Code_46GDbtVoltarObjects1Objects = Hashtable.newFrom({"btVoltar": gdjs.goniometro_95simulador6Code.GDbtVoltarObjects1});gdjs.goniometro_95simulador6Code.eventsList4 = function(runtimeScene) {
 
 {
 
@@ -540,7 +594,7 @@ if (gdjs.goniometro_95simulador6Code.condition2IsTrue_0.val) {
 }
 
 
-};gdjs.goniometro_95simulador6Code.eventsList3 = function(runtimeScene) {
+};gdjs.goniometro_95simulador6Code.eventsList5 = function(runtimeScene) {
 
 {
 
@@ -552,7 +606,14 @@ gdjs.goniometro_95simulador6Code.eventsList1(runtimeScene);
 {
 
 
-gdjs.goniometro_95simulador6Code.eventsList2(runtimeScene);
+gdjs.goniometro_95simulador6Code.eventsList3(runtimeScene);
+}
+
+
+{
+
+
+gdjs.goniometro_95simulador6Code.eventsList4(runtimeScene);
 }
 
 
@@ -561,6 +622,9 @@ gdjs.goniometro_95simulador6Code.eventsList2(runtimeScene);
 gdjs.goniometro_95simulador6Code.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
+gdjs.goniometro_95simulador6Code.GDH01PObjects1.length = 0;
+gdjs.goniometro_95simulador6Code.GDH01PObjects2.length = 0;
+gdjs.goniometro_95simulador6Code.GDH01PObjects3.length = 0;
 gdjs.goniometro_95simulador6Code.GDmolduraObjects1.length = 0;
 gdjs.goniometro_95simulador6Code.GDmolduraObjects2.length = 0;
 gdjs.goniometro_95simulador6Code.GDmolduraObjects3.length = 0;
@@ -625,7 +689,7 @@ gdjs.goniometro_95simulador6Code.GDpeca03Objects1.length = 0;
 gdjs.goniometro_95simulador6Code.GDpeca03Objects2.length = 0;
 gdjs.goniometro_95simulador6Code.GDpeca03Objects3.length = 0;
 
-gdjs.goniometro_95simulador6Code.eventsList3(runtimeScene);
+gdjs.goniometro_95simulador6Code.eventsList5(runtimeScene);
 return;
 
 }
