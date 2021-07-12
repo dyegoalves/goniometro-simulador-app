@@ -3602,24 +3602,6 @@ gdjs.goniometro_95simulador11Code.eventsList58(runtimeScene);
 }
 
 
-{
-
-
-{
-}
-
-}
-
-
-{
-
-
-{
-}
-
-}
-
-
 };
 
 gdjs.goniometro_95simulador11Code.func = function(runtimeScene) {

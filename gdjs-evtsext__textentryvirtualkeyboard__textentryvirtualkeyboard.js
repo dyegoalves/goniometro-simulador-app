@@ -611,7 +611,7 @@ gdjs.evtsExt__TextEntryVirtualKeyboard__TextEntryVirtualKeyboard.TextEntryVirtua
 gdjs.evtsExt__TextEntryVirtualKeyboard__TextEntryVirtualKeyboard.TextEntryVirtualKeyboard.prototype.setTypeKeyboardContext.condition4IsTrue_2 = {val:false};
 
 
-gdjs.evtsExt__TextEntryVirtualKeyboard__TextEntryVirtualKeyboard.TextEntryVirtualKeyboard.prototype.setTypeKeyboardContext.userFunc0xe6f6b0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__TextEntryVirtualKeyboard__TextEntryVirtualKeyboard.TextEntryVirtualKeyboard.prototype.setTypeKeyboardContext.userFunc0xe79588 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 gdjs._extensionMobileKeyboard = gdjs._extensionMobileKeyboard || {};
 
@@ -624,7 +624,7 @@ gdjs.evtsExt__TextEntryVirtualKeyboard__TextEntryVirtualKeyboard.TextEntryVirtua
 {
 
 
-gdjs.evtsExt__TextEntryVirtualKeyboard__TextEntryVirtualKeyboard.TextEntryVirtualKeyboard.prototype.setTypeKeyboardContext.userFunc0xe6f6b0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__TextEntryVirtualKeyboard__TextEntryVirtualKeyboard.TextEntryVirtualKeyboard.prototype.setTypeKeyboardContext.userFunc0xe79588(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
