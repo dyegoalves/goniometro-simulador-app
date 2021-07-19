@@ -28,12 +28,6 @@ gdjs.copyArray(eventsFunctionContext.getObjects("txtB1vl"), gdjs.evtsExt__functi
 {for(var i = 0, len = gdjs.evtsExt__functionText__colorTextCorrect.GDRespostasObjects1.length ;i < len;++i) {
     gdjs.evtsExt__functionText__colorTextCorrect.GDRespostasObjects1[i].hide(false);
 }
-}{for(var i = 0, len = gdjs.evtsExt__functionText__colorTextCorrect.GDRespostasObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__functionText__colorTextCorrect.GDRespostasObjects1[i].setColor("126;211;33");
-}
-}{for(var i = 0, len = gdjs.evtsExt__functionText__colorTextCorrect.GDRespostasObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__functionText__colorTextCorrect.GDRespostasObjects1[i].setString("A Resposta está correta");
-}
 }{for(var i = 0, len = gdjs.evtsExt__functionText__colorTextCorrect.GDtxtA1Objects1.length ;i < len;++i) {
     gdjs.evtsExt__functionText__colorTextCorrect.GDtxtA1Objects1[i].setColor("74;74;74");
 }
